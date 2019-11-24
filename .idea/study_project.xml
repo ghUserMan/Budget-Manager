@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="VERSION" value="16" />
+      <option name="myUserTests">
+        <map />
+      </option>
+      <option name="course">
+        <HyperskillCourse>
+          <option name="authors">
+            <list />
+          </option>
+          <option name="courseMode" value="Study" />
+          <option name="customPresentableName" />
+          <option name="description" value="Not to sound overly serious, but it’s very important to manage your budget. This implies analyzing your expenses and estimating the income, which sometimes may be difficult to do yourself. Luckily, technology is there to assist: you can create your own personal budget manager program that counts the ins and outs and helps control the finances.&lt;br/&gt;&lt;br/&gt;Learn more at &lt;a href=&quot;https://hyperskill.org&quot;&gt;https://hyperskill.org/projects/76&lt;/a&gt;" />
+          <option name="environment" value="" />
+          <option name="id" value="0" />
+          <option name="index" value="-1" />
+          <option name="language" value="JAVA 11" />
+          <option name="languageCode" value="en" />
+          <option name="name" value="Budget Manager" />
+          <option name="stages">
+            <list>
+              <HyperskillStage>
+                <option name="id" value="421" />
+                <option name="stepId" value="7024" />
+                <option name="title" value="Count my money" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="422" />
+                <option name="stepId" value="7025" />
+                <option name="title" value="Make a menu" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="423" />
+                <option name="stepId" value="7026" />
+                <option name="title" value="Oh the things you can buy" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="424" />
+                <option name="stepId" value="7027" />
+                <option name="title" value="Memorable purchases" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="425" />
+                <option name="stepId" value="7028" />
+                <option name="title" value="Analyzer" />
+              </HyperskillStage>
+            </list>
+          </option>
+          <option name="taskToTopics">
+            <map>
+              <entry key="0">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="117" />
+                      <option name="theoryId" value="3614" />
+                      <option name="title" value="Introduction to OOP" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="502" />
+                      <option name="theoryId" value="6865" />
+                      <option name="title" value="Units of information" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="362" />
+                      <option name="theoryId" value="5544" />
+                      <option name="title" value="Binary numbers" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="480" />
+                      <option name="theoryId" value="6577" />
+                      <option name="title" value="Command line overview" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="15" />
+                      <option name="theoryId" value="3500" />
+                      <option name="title" value="Introduction to Java" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="147" />
+                      <option name="theoryId" value="3522" />
+                      <option name="title" value="Basic literals" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="148" />
+                      <option name="theoryId" value="3521" />
+                      <option name="title" value="The first program" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="193" />
+                      <option name="theoryId" value="3749" />
+                      <option name="title" value="Printing data" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="14" />
+                      <option name="theoryId" value="3518" />
+                      <option name="title" value="Types and variables" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="309" />
+                      <option name="theoryId" value="5035" />
+                      <option name="title" value="Primitive and reference types" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="4" />
+                      <option name="theoryId" value="3511" />
+                      <option name="title" value="Array" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="30" />
+                      <option name="theoryId" value="3520" />
+                      <option name="title" value="Comments" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="112" />
+                      <option name="theoryId" value="3513" />
+                      <option name="title" value="Naming variables" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="146" />
+                      <option name="theoryId" value="3519" />
+                      <option name="title" value="Arithmetic operations" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="191" />
+                      <option name="theoryId" value="3739" />
+                      <option name="title" value="Write, compile and run" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="149" />
+                      <option name="theoryId" value="3499" />
+                      <option name="title" value="JVM, JRE and JDK" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="161" />
+                      <option name="theoryId" value="3532" />
+                      <option name="title" value="Sizes and ranges" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="32" />
+                      <option name="theoryId" value="3510" />
+                      <option name="title" value="Type casting" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="192" />
+                      <option name="theoryId" value="3746" />
+                      <option name="title" value="Running programs on your computer" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="113" />
+                      <option name="theoryId" value="3603" />
+                      <option name="title" value="Scanning the input" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="1">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="266" />
+                      <option name="theoryId" value="4953" />
+                      <option name="title" value="Computer algorithms" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="263" />
+                      <option name="theoryId" value="4991" />
+                      <option name="title" value="The big O notation" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="267" />
+                      <option name="theoryId" value="5161" />
+                      <option name="title" value="Data structures" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="538" />
+                      <option name="theoryId" value="7263" />
+                      <option name="title" value="Pseudocode" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="537" />
+                      <option name="theoryId" value="7255" />
+                      <option name="title" value="Fixed-size array" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="346" />
+                      <option name="theoryId" value="5357" />
+                      <option name="title" value="Dynamic array" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="60" />
+                      <option name="theoryId" value="3497" />
+                      <option name="title" value="What is an exception" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="164" />
+                      <option name="theoryId" value="1945" />
+                      <option name="title" value="NPE" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="167" />
+                      <option name="theoryId" value="3492" />
+                      <option name="title" value="Generic programming" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="166" />
+                      <option name="theoryId" value="3567" />
+                      <option name="title" value="ArrayList" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="259" />
+                      <option name="theoryId" value="3805" />
+                      <option name="title" value="IDE" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="163" />
+                      <option name="theoryId" value="3536" />
+                      <option name="title" value="Errors in programs" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="152" />
+                      <option name="theoryId" value="3506" />
+                      <option name="title" value="Ternary operator" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="97" />
+                      <option name="theoryId" value="3602" />
+                      <option name="title" value="Iterating over arrays" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="94" />
+                      <option name="theoryId" value="3590" />
+                      <option name="title" value="Defining methods" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="17" />
+                      <option name="theoryId" value="3535" />
+                      <option name="title" value="Constructor" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="116" />
+                      <option name="theoryId" value="3495" />
+                      <option name="title" value="Instance methods" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="6" />
+                      <option name="theoryId" value="3595" />
+                      <option name="title" value="Boxing and unboxing" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="260" />
+                      <option name="theoryId" value="3801" />
+                      <option name="title" value="IntelliJ IDEA" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="387" />
+                      <option name="theoryId" value="5819" />
+                      <option name="title" value="IDEA Basics" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="2">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="43" />
+                      <option name="theoryId" value="3591" />
+                      <option name="title" value="Basics of collections" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="40" />
+                      <option name="theoryId" value="3575" />
+                      <option name="title" value="Set" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="46" />
+                      <option name="theoryId" value="3558" />
+                      <option name="title" value="Map" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="3">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="59" />
+                      <option name="theoryId" value="3570" />
+                      <option name="title" value="Hierarchy of exceptions" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="65" />
+                      <option name="theoryId" value="3552" />
+                      <option name="title" value="Exception handling" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="172" />
+                      <option name="theoryId" value="3635" />
+                      <option name="title" value="Files" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="173" />
+                      <option name="theoryId" value="3636" />
+                      <option name="title" value="Reading files" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="176" />
+                      <option name="theoryId" value="3648" />
+                      <option name="title" value="Managing files" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="177" />
+                      <option name="theoryId" value="3652" />
+                      <option name="title" value="Writing files" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="7" />
+                      <option name="theoryId" value="3621" />
+                      <option name="title" value="Package" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="28" />
+                      <option name="theoryId" value="3589" />
+                      <option name="title" value="Access modifiers" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="24" />
+                      <option name="theoryId" value="3599" />
+                      <option name="title" value="Getters and setters" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="8" />
+                      <option name="theoryId" value="3583" />
+                      <option name="title" value="Inheritance" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="4">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="274" />
+                      <option name="theoryId" value="4954" />
+                      <option name="title" value="The sorting problem" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="285" />
+                      <option name="theoryId" value="4962" />
+                      <option name="title" value="Bubble sort" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="157" />
+                      <option name="theoryId" value="3611" />
+                      <option name="title" value="The concept of patterns" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="159" />
+                      <option name="theoryId" value="3556" />
+                      <option name="title" value="Strategy" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="130" />
+                      <option name="theoryId" value="3540" />
+                      <option name="title" value="Algorithms in Java" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="139" />
+                      <option name="theoryId" value="3547" />
+                      <option name="title" value="Bubble sort in Java" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="571" />
+                      <option name="theoryId" value="7427" />
+                      <option name="title" value="Final variables" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="37" />
+                      <option name="theoryId" value="3525" />
+                      <option name="title" value="Overloading" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="38" />
+                      <option name="theoryId" value="3534" />
+                      <option name="title" value="Static members" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="120" />
+                      <option name="theoryId" value="3538" />
+                      <option name="title" value="Multiple constructors" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="127" />
+                      <option name="theoryId" value="3588" />
+                      <option name="title" value="The keyword super" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="5" />
+                      <option name="theoryId" value="3572" />
+                      <option name="title" value="Hiding and overriding" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="491" />
+                      <option name="theoryId" value="6692" />
+                      <option name="title" value="Protected modifier" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="128" />
+                      <option name="theoryId" value="3585" />
+                      <option name="title" value="Referencing subclass objects" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="2" />
+                      <option name="theoryId" value="3587" />
+                      <option name="title" value="Polymorphism" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="124" />
+                      <option name="theoryId" value="3615" />
+                      <option name="title" value="Interface" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </option>
+          <option name="updateDate" value="0" />
+          <option name="hyperskillProject">
+            <HyperskillProject>
+              <option name="description" value="Not to sound overly serious, but it’s very important to manage your budget. This implies analyzing your expenses and estimating the income, which sometimes may be difficult to do yourself. Luckily, technology is there to assist: you can create your own personal budget manager program that counts the ins and outs and helps control the finances." />
+              <option name="id" value="76" />
+              <option name="ideFiles" value="https://stepik.org/media/attachments/lesson/247701/additional_files.json" />
+              <option name="language" value="java" />
+              <option name="templateBased" value="false" />
+              <option name="title" value="Budget Manager" />
+              <option name="useIde" value="true" />
+            </HyperskillProject>
+          </option>
+          <option name="items">
+            <list>
+              <FrameworkLesson>
+                <option name="currentTaskIndex" value="2" />
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="1" />
+                <option name="name" value="Budget Manager" />
+                <option name="updateDate" value="0" />
+                <option name="unitId" value="0" />
+                <option name="items">
+                  <list>
+                    <EduTask>
+                      <option name="customPresentableName" value="stage1" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;First, let’s implement the counting of your purchases. It’s much easier to analyze when your expenses are presented as a list. Read data from the console and at the end show the list of all purchases and its total amount.&lt;br&gt;&#10;It should be displayed as follows: &lt;code&gt;Total: $23.00&lt;/code&gt; &lt;/p&gt;&#10;&#10;&lt;p&gt;Your program should process every line the user inputs. To end the input, the user should type &lt;a href=&quot;https://en.wikipedia.org/wiki/End-of-file&quot; rel=&quot;noopener noreferrer nofollow&quot;&gt;End-of-file&lt;/a&gt; symbol that tells your operating system that no more input will be provided. It's &lt;code&gt;Ctrl+D&lt;/code&gt; on Linux and Mac and &lt;code&gt;Ctrl+Z&lt;/code&gt; on Windows. Don't be scared: you don’t have to implement it yourself, this is a special built-in hot-key that gives the command to stop input. See for yourself!&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Example&lt;/h2&gt;&#10;&#10;&lt;p&gt;Input:&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Almond 250gm $35.43&#10;LEGO DUPLO Town Farm Animals $10.10&#10;Sensodyne Pronamel Toothpaste $19.74&#10;Hershey's milk chocolate bars $8.54&#10;Gildan LT $8.61&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;p&gt;Output:&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Almond 250gm $35.43&#10;LEGO DUPLO Town Farm Animals $10.10&#10;Sensodyne Pronamel Toothpaste $19.74&#10;Hershey's milk chocolate bars $8.54&#10;Gildan LT $8.61&#10;&#10;Total: $82.42&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;p&gt;&lt;br&gt;&#10; &lt;/p&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/76/stages/421/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="7024" />
+                      <option name="index" value="1" />
+                      <option name="name" value="Count my money" />
+                      <option name="record" value="2" />
+                      <option name="status" value="Failed" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/budget/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/budget/Main.java" />
+                                <option name="text" value="package budget;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        // write your code here&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/BudgetManagerTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/BudgetManagerTest.java" />
+                                <option name="text" value="import budget.Main;&#10;import org.hyperskill.hstest.v6.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v6.testcase.CheckResult;&#10;import org.hyperskill.hstest.v6.testcase.TestCase;&#10;&#10;import java.util.List;&#10;import java.util.regex.Matcher;&#10;import java.util.regex.Pattern;&#10;&#10;public class BudgetManagerTest extends BaseStageTest&lt;String&gt; {&#10;&#10;    public BudgetManagerTest() {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;String&gt;&gt; generate() {&#10;        return List.of(&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&#10;                    &quot;Almond 250gm $35.43\n&quot; +&#10;                        &quot;LEGO DUPLO Town Farm Animals $10.10\n&quot; +&#10;                        &quot;Sensodyne Pronamel Toothpaste $19.74\n&quot; +&#10;                        &quot;Hershey's milk chocolate bars $8.54\n&quot; +&#10;                        &quot;Gildan LT $8.61\n&quot;)&#10;                .setAttach(&#10;                    &quot;Almond 250gm $35.43\n&quot; +&#10;                        &quot;LEGO DUPLO Town Farm Animals $10.10\n&quot; +&#10;                        &quot;Sensodyne Pronamel Toothpaste $19.74\n&quot; +&#10;                        &quot;Hershey's milk chocolate bars $8.54\n&quot; +&#10;                        &quot;Gildan LT $8.61\n&quot; +&#10;                        &quot;\n&quot; +&#10;                        &quot;Total: $82,42\n&quot;&#10;                )&#10;        );&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, String attach) {&#10;&#10;        reply = reply.trim().toLowerCase();&#10;        String[] rightOutput = attach.toLowerCase().split(&quot;\n&quot;);&#10;&#10;        if (!reply.toLowerCase().contains(&quot;total&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Output should contain total amount of purchases&quot;);&#10;        }&#10;&#10;        for (String s : rightOutput) {&#10;&#10;            //Skip last or empty line&#10;            if (s.contains(&quot;total&quot;) || s.equals(&quot;&quot;))&#10;                continue;&#10;&#10;            if (!reply.contains(s)) {&#10;                return new CheckResult(false,&#10;                    &quot;Output should contain purchase\n&quot; + s);&#10;            }&#10;        }&#10;&#10;        Pattern pattern = Pattern.compile(&quot;total:\\s+\\$(\\d\\d?[.,]\\d\\d)&quot;);&#10;        Matcher matcher = pattern.matcher(reply);&#10;&#10;        if (matcher.find()) {&#10;            try {&#10;                String totalAmount = matcher.group(1);&#10;                double total = Double.parseDouble(totalAmount);&#10;                if (Math.abs(82.42 - total) &gt; 0.0001)&#10;                    return new CheckResult(false,&#10;                        &quot;Your total amount: $&quot; + totalAmount + &quot;\n&quot; +&#10;                            &quot;Expected: $82.42&quot;);&#10;            } catch (NumberFormatException ex) {&#10;                return new CheckResult(false,&#10;                    &quot;Total amount should be a number&quot;);&#10;            }&#10;            return new CheckResult(true);&#10;        } else {&#10;            return new CheckResult(false,&#10;                &quot;Total amount wasn't found.\n&quot; +&#10;                    &quot;It should look like: Total: $0.00&quot;);&#10;        }&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/budget/Main.class">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/budget/Main.class" />
+                                <option name="text" value="" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" value="stage2" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;Let's make your application more convenient. Only counting the expenses is a little bit sad, right?&lt;/p&gt;&#10;&#10;&lt;p&gt;To make your application flexible and functional, add a menu that consists of 4 items.&lt;/p&gt;&#10;&#10;&lt;ol&gt;&#10;&#9;&lt;li&gt;&lt;strong&gt;Add Income&lt;/strong&gt;. We must track both our expenses and our income. When this item is selected, the program should ask to enter the amount of income.&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;strong&gt;Add Purchase&lt;/strong&gt;. This item should add a purchase to the list. You have implemented this feature in the previous stage.&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;strong&gt;Show the list of purchases&lt;/strong&gt;. This menu item should display a list of all expenses and incomes in the order they were made.&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;strong&gt;Balance&lt;/strong&gt;. Show the balance.&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;strong&gt;Exit&lt;/strong&gt;. Exit the program. Make this item under number &lt;strong&gt;0&lt;/strong&gt;, not number 5.&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;p&gt;Notice, that the amount of remaining money cannot be negative. In this case, make the balance equal to $0.&lt;/p&gt;&#10;&#10;&lt;p&gt;When displaying the price or the total amount, print 2 numbers after the point.&lt;br&gt;&#10;Example: &lt;code&gt;$14.20&lt;/code&gt;&lt;br&gt;&#10;Follow this rule in the next stages.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Example&lt;/h2&gt;&#10;&#10;&lt;p&gt;Note that lines beginning with &lt;code&gt;&amp;gt;&lt;/code&gt; are user input data (not including &lt;code&gt;&amp;gt;&lt;/code&gt; symbol itself).&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;0) Exit&#10;&amp;gt;1&#10;&#10;Enter income:&#10;&amp;gt;1000&#10;Income was added!&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;0) Exit&#10;&amp;gt;4&#10;&#10;Balance: $1000.00&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;0) Exit&#10;&amp;gt;3&#10;&#10;Purchase list is empty&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;0) Exit&#10;&amp;gt;2&#10;&#10;Enter purchase name:&#10;&amp;gt;Red Fuji Apple&#10;Enter its price:&#10;&amp;gt;5.99&#10;Purchase was added!&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;0) Exit&#10;&amp;gt;3&#10;&#10;Red Fuji Apple $5.99&#10;Total sum: $5.99&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;0) Exit&#10;&amp;gt;0&#10;&#10;Bye!&#10;&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/76/stages/422/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="7025" />
+                      <option name="index" value="2" />
+                      <option name="name" value="Make a menu" />
+                      <option name="record" value="3" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/BudgetManagerTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/BudgetManagerTest.java" />
+                                <option name="text" value="import budget.Main;&#10;import org.hyperskill.hstest.v6.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v6.testcase.CheckResult;&#10;import org.hyperskill.hstest.v6.testcase.TestCase;&#10;&#10;import java.util.Arrays;&#10;import java.util.List;&#10;import java.util.function.BiFunction;&#10;import java.util.regex.Matcher;&#10;import java.util.regex.Pattern;&#10;&#10;public class BudgetManagerTest extends BaseStageTest&lt;String&gt; {&#10;&#10;    public BudgetManagerTest() {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;String&gt;&gt; generate() {&#10;        return List.of(&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;0\n&quot;)&#10;                .setCheckFunc(BudgetManagerTest::test1),&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;0\n&quot;)&#10;                .setCheckFunc(BudgetManagerTest::test2),&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;4\n0&quot;)&#10;                .setCheckFunc(BudgetManagerTest::test3),&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;1\n400\n4\n1\n200\n4\n0&quot;)&#10;                .setCheckFunc(BudgetManagerTest::test4),&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;3\n1\n600\n2\nRed Fuji Apple\n5.99\n2\nEggs\n3.99\n3\n4\n0&quot;)&#10;                .setCheckFunc(BudgetManagerTest::test5)&#10;        );&#10;    }&#10;&#10;&#10;    //Checking program stop&#10;    private static CheckResult test1(String reply, String attach) {&#10;        if (!reply.contains(&quot;Bye!&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Your program should stop after choosing \&quot;Exit\&quot;&quot;);&#10;        }&#10;        return new CheckResult(true);&#10;    }&#10;&#10;&#10;    //Checking menu&#10;    private static CheckResult test2(String reply, String attach) {&#10;        String[] menuPatterns = {&quot;1)&quot;, &quot;2)&quot;, &quot;3)&quot;, &quot;4)&quot;, &quot;0)&quot;};&#10;        for (String menuPattern : menuPatterns) {&#10;            if (!reply.contains(menuPattern)) {&#10;                return new CheckResult(false,&#10;                    &quot;Your menu doesn't have item &quot; + menuPattern);&#10;            }&#10;        }&#10;        return new CheckResult(true);&#10;    }&#10;&#10;&#10;    //Checking balance&#10;    private static CheckResult test3(String reply, String attach) {&#10;&#10;        String[] blocks = reply.split(&quot;\n(\n+)?\n&quot;);&#10;&#10;        if (blocks.length != 4) {&#10;            return new CheckResult(false,&#10;                &quot;Your program shows wrong blocks of output. Expected: 4\n&quot; +&#10;                    &quot;You have: &quot; + blocks.length + &quot;\n&quot; +&#10;                    &quot;Make sure that you print an empty line after each chosen action&quot;);&#10;        }&#10;&#10;        String balance = blocks[1];&#10;&#10;        if (!balance.toLowerCase().contains(&quot;balance&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Your program should show balance after choosing 4th item&quot;);&#10;        }&#10;&#10;        Pattern doublePattern = Pattern.compile(&quot;\\d+[,.]\\d+&quot;);&#10;        Matcher matcher = doublePattern.matcher(balance);&#10;&#10;        if (!matcher.find()) {&#10;            return new CheckResult(false,&#10;                &quot;Your balance should contain a number!&quot;);&#10;        }&#10;&#10;        double balanceDouble = Double.parseDouble(matcher.group());&#10;&#10;        if (Math.abs(balanceDouble - 0) &gt; 0.0001) {&#10;            System.out.println(balance);&#10;            return new CheckResult(false,&#10;                &quot;Balance should be $0.00 at the beginning&quot;);&#10;        }&#10;&#10;        return new CheckResult(true);&#10;    }&#10;&#10;&#10;    //Checking adding income&#10;    private static CheckResult test4(String reply, String attach) {&#10;&#10;        String[] blocks = reply.split(&quot;\n(\n+)?\n&quot;);&#10;&#10;        if (blocks.length != 10) {&#10;            return new CheckResult(false,&#10;                &quot;Your program shows wrong blocks of output. Expected: 10\n&quot; +&#10;                    &quot;You have: &quot; + blocks.length + &quot;\n&quot; +&#10;                    &quot;Make sure that you print an empty line after each chosen action&quot;);&#10;        }&#10;&#10;        String balanceAfterFirstAddingIncome = blocks[3];&#10;&#10;        if (!balanceAfterFirstAddingIncome.contains(&quot;$400&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Balance is wrong after adding income!.\n&quot; +&#10;                    &quot;Expected:\n&quot; +&#10;                    &quot;Balance: $400.00\n&quot; +&#10;                    &quot;Your output:\n&quot; + balanceAfterFirstAddingIncome);&#10;        }&#10;&#10;        return new CheckResult(true);&#10;    }&#10;&#10;&#10;    //Checking adding purchase&#10;    private static CheckResult test5(String reply, String attach) {&#10;&#10;        String[] blocks = reply.split(&quot;\n(\n+)?\n&quot;);&#10;&#10;        if (blocks.length != 14) {&#10;            return new CheckResult(false,&#10;                &quot;Your program shows wrong blocks of output. Expected: 14\n&quot; +&#10;                    &quot;You have: &quot; + blocks.length + &quot;\n&quot; +&#10;                    &quot;Make sure that you print an empty line after each chosen action&quot;);&#10;        }&#10;&#10;        String emptyPurchaseList = blocks[1];&#10;&#10;        if (!emptyPurchaseList.contains(&quot;empty&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Purchase list should be empty at the beginning!&quot;);&#10;        }&#10;&#10;        String purchaseList = blocks[9];&#10;&#10;        String[][] purchases = {&#10;            {&quot;Red Fuji Apple&quot;, &quot;5.99&quot;},&#10;            {&quot;Eggs&quot;, &quot;3.99&quot;}&#10;        };&#10;&#10;        for (String[] purchase : purchases) {&#10;            if (!purchaseList.contains(purchase[0])) {&#10;                return new CheckResult(false,&#10;                    &quot;Your purchase list doesn't contain \&quot;&quot; + purchase[0] + &quot;\&quot;&quot;);&#10;            }&#10;            if (!purchaseList.contains(purchase[1])) {&#10;                return new CheckResult(false,&#10;                    &quot;Your purchase list doesn't have price of &quot; + purchase[0]);&#10;            }&#10;        }&#10;&#10;        String balanceAfterAddingPurchases = blocks[11];&#10;&#10;        Pattern doublePattern = Pattern.compile(&quot;\\d+[,.]\\d+&quot;);&#10;        Matcher matcher = doublePattern.matcher(balanceAfterAddingPurchases);&#10;&#10;        if (!matcher.find()) {&#10;            return new CheckResult(false,&#10;                &quot;Your balance should contain a number!&quot;);&#10;        }&#10;&#10;        double balance = Double.parseDouble(matcher.group());&#10;&#10;        if (Math.abs(balance - 590.02) &gt; 0.0001) {&#10;            return new CheckResult(false,&#10;                &quot;Your balance should change after adding purchase.\n&quot; +&#10;                    &quot;Expected: Balance $590.02\n&quot; +&#10;                    &quot;Your output: &quot; + balanceAfterAddingPurchases);&#10;        }&#10;&#10;        return new CheckResult(true);&#10;    }&#10;&#10;&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/budget/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/budget/Main.java" />
+                                <option name="text" value="package budget;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        // write your code here&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/budget/Main.class">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/budget/Main.class" />
+                                <option name="text" value="" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" value="stage3" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;To better control the expenses, we need to categorize our purchases. It helps to see how exactly your budget is distributed: you may be actually quite surprised! &lt;/p&gt;&#10;&#10;&lt;p&gt;Implement a function that assigns a purchase to a specific category.&lt;/p&gt;&#10;&#10;&lt;p&gt;The program should have the following categories:&lt;br&gt;&#10;&lt;strong&gt;Food&lt;br&gt;&#10;Clothes&lt;br&gt;&#10;Entertainment&lt;br&gt;&#10;Other&lt;/strong&gt;&lt;/p&gt;&#10;&#10;&lt;p&gt;The function allows you to output the shopping list by type. After selecting the action of showing the list of expenses, offer to show either a certain category or a general list. At the end print the total amount of purchases that are on the list.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Example&lt;/h2&gt;&#10;&#10;&lt;p&gt;Note that lines beginning with &lt;code&gt;&amp;gt;&lt;/code&gt; are user input data (not including &lt;code&gt;&amp;gt;&lt;/code&gt; symbol itself).&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;0) Exit&#10;&amp;gt;3&#10;&#10;Purchase list is empty!&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;0) Exit&#10;&amp;gt;2&#10;&#10;Choose the type of purchase&#10;1) Food&#10;2) Clothes&#10;3) Entertainment&#10;4) Other&#10;5) Back&#10;&amp;gt;1&#10;&#10;Enter purchase name:&#10;&amp;gt;Milk&#10;Enter its price:&#10;&amp;gt;3.5&#10;Purchase was added!&#10;&#10;Choose the type of purchase&#10;1) Food&#10;2) Clothes&#10;3) Entertainment&#10;4) Other&#10;5) Back&#10;&amp;gt;5&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;0) Exit&#10;&amp;gt;3&#10;&#10;Choose the type of purchases&#10;1) Food&#10;2) Clothes&#10;3) Entertainment&#10;4) Other&#10;5) All&#10;6) Back&#10;&amp;gt;4&#10;&#10;Other:&#10;Purchase list is empty!&#10;&#10;Choose the type of purchases&#10;1) Food&#10;2) Clothes&#10;3) Entertainment&#10;4) Other&#10;5) All&#10;6) Back&#10;&amp;gt;1&#10;&#10;Food:&#10;Milk $3.50&#10;Total sum: $3.50&#10;&#10;Choose the type of purchases&#10;1) Food&#10;2) Clothes&#10;3) Entertainment&#10;4) Other&#10;5) All&#10;6) Back&#10;&amp;gt;5&#10;&#10;All:&#10;Milk $3.50&#10;Total sum: $3.50&#10;&#10;Choose the type of purchases&#10;1) Food&#10;2) Clothes&#10;3) Entertainment&#10;4) Other&#10;5) All&#10;6) Back&#10;&amp;gt;6&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;0) Exit&#10;&amp;gt;0&#10;&#10;Bye!&#10;&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/76/stages/423/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="7026" />
+                      <option name="index" value="3" />
+                      <option name="name" value="Oh the things you can buy" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/BudgetManagerTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/BudgetManagerTest.java" />
+                                <option name="text" value="import budget.Main;&#10;import org.hyperskill.hstest.v6.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v6.testcase.CheckResult;&#10;import org.hyperskill.hstest.v6.testcase.TestCase;&#10;&#10;import java.util.List;&#10;import java.util.function.BiFunction;&#10;import java.util.regex.Matcher;&#10;import java.util.regex.Pattern;&#10;&#10;public class BudgetManagerTest extends BaseStageTest&lt;String&gt; {&#10;&#10;    public BudgetManagerTest() {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;String&gt;&gt; generate() {&#10;        return List.of(&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;0\n&quot;)&#10;                .setCheckFunc(BudgetManagerTest::test1),&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;0\n&quot;)&#10;                .setCheckFunc(BudgetManagerTest::test2),&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;4\n0&quot;)&#10;                .setCheckFunc(BudgetManagerTest::test3),&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;1\n400\n4\n1\n200\n4\n0&quot;)&#10;                .setCheckFunc(BudgetManagerTest::test4),&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;1\n600\n2\n&quot; +&#10;                    &quot;1\nMilk\n3.5\n&quot; +&#10;                    &quot;2\nMen's Dual Defense Crew Socks 12 Pairs\n13\n&quot; +&#10;                    &quot;3\nCinema\n8.73\n&quot; +&#10;                    &quot;5\n3\n1\n2\n3\n5\n6\n0&quot;)&#10;                .setCheckFunc(BudgetManagerTest::test5)&#10;&#10;        );&#10;    }&#10;&#10;    //Checking program stop&#10;    private static CheckResult test1(String reply, String attach) {&#10;        if (!reply.contains(&quot;Bye!&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Your program should stop after choosing \&quot;Exit\&quot;&quot;);&#10;        }&#10;        return new CheckResult(true);&#10;    }&#10;&#10;&#10;    //Checking menu&#10;    private static CheckResult test2(String reply, String attach) {&#10;        String[] menuPatterns = {&quot;1)&quot;, &quot;2)&quot;, &quot;3)&quot;, &quot;4)&quot;, &quot;0)&quot;};&#10;        for (String menuPattern : menuPatterns) {&#10;            if (!reply.contains(menuPattern)) {&#10;                return new CheckResult(false,&#10;                    &quot;Your menu doesn't have item &quot; + menuPattern);&#10;            }&#10;        }&#10;        return new CheckResult(true);&#10;    }&#10;&#10;&#10;    //Checking balance&#10;    private static CheckResult test3(String reply, String attach) {&#10;&#10;        String[] blocks = reply.split(&quot;\n(\n+)?\n&quot;);&#10;&#10;        if (blocks.length != 4) {&#10;            return new CheckResult(false,&#10;                &quot;Your program shows wrong blocks of output. Expected: 4\n&quot; +&#10;                    &quot;You have: &quot; + blocks.length + &quot;\n&quot; +&#10;                    &quot;Make sure that you print an empty line after each chosen action&quot;);&#10;        }&#10;&#10;        String balance = blocks[1];&#10;&#10;        if (!balance.toLowerCase().contains(&quot;balance&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Your program should show balance after choosing 4th item&quot;);&#10;        }&#10;&#10;        Pattern doublePattern = Pattern.compile(&quot;\\d+[,.]\\d+&quot;);&#10;        Matcher matcher = doublePattern.matcher(balance);&#10;&#10;        if (!matcher.find()) {&#10;            return new CheckResult(false,&#10;                &quot;Your balance should contain a number!&quot;);&#10;        }&#10;&#10;        double balanceDouble = Double.parseDouble(matcher.group());&#10;&#10;        if (Math.abs(balanceDouble - 0) &gt; 0.0001) {&#10;            System.out.println(balance);&#10;            return new CheckResult(false,&#10;                &quot;Balance should be $0.00 at the beginning&quot;);&#10;        }&#10;&#10;        return new CheckResult(true);&#10;&#10;    }&#10;&#10;&#10;    //Checking adding income&#10;    private static CheckResult test4(String reply, String attach) {&#10;&#10;        String[] blocks = reply.split(&quot;\n(\n+)?\n&quot;);&#10;&#10;        if (blocks.length != 10) {&#10;            return new CheckResult(false,&#10;                &quot;Your program shows wrong blocks of output. Expected: 10\n&quot; +&#10;                    &quot;You have: &quot; + blocks.length + &quot;\n&quot; +&#10;                    &quot;Make sure that you print an empty line after each chosen action&quot;);&#10;        }&#10;&#10;        String balanceAfterFirstAddingIncome = blocks[3];&#10;&#10;        if (!balanceAfterFirstAddingIncome.contains(&quot;$400&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Balance is wrong after adding income!.\n&quot; +&#10;                    &quot;Expected:\n&quot; +&#10;                    &quot;Balance: $400.00\n&quot; +&#10;                    &quot;Your output:\n&quot; +&#10;                    balanceAfterFirstAddingIncome);&#10;        }&#10;&#10;        return new CheckResult(true);&#10;    }&#10;&#10;&#10;    //Checking adding purchase&#10;    private static CheckResult test5(String reply, String attach) {&#10;&#10;        String[] blocks = reply.split(&quot;\n(\n+)?\n&quot;);&#10;&#10;        if (blocks.length != 22) {&#10;            return new CheckResult(false,&#10;                &quot;Your program shows wrong blocks of output. Expected: 22\n&quot; +&#10;                    &quot;You have: &quot; + blocks.length + &quot;\n&quot; +&#10;                    &quot;Make sure that you print an empty line after each chosen action&quot;);&#10;        }&#10;&#10;&#10;        //Food&#10;        String foodList = blocks[12];&#10;        if (!foodList.contains(&quot;Milk&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Wrong food purchase list.\n&quot; +&#10;                    &quot;Expected:\n&quot; +&#10;                    &quot;Food:\n&quot; +&#10;                    &quot;Milk $3.50\n&quot; +&#10;                    &quot;Total sum: $3.50\n&quot; +&#10;                    &quot;Your output:\n&quot; + foodList);&#10;        }&#10;&#10;        String[] temp = foodList.split(&quot;\n&quot;);&#10;        String totalSum = temp[temp.length - 1];&#10;&#10;        Pattern doublePattern = Pattern.compile(&quot;\\d+[,.]\\d+&quot;);&#10;        Matcher matcher = doublePattern.matcher(totalSum);&#10;&#10;        if (!matcher.find()) {&#10;            return new CheckResult(false,&#10;                &quot;Your food total sum is wrong!\n&quot; +&#10;                    &quot;Expected:\n&quot; +&#10;                    &quot;Total sum: $3.50\n&quot; +&#10;                    &quot;Your output:\n&quot; +&#10;                    totalSum);&#10;        }&#10;&#10;        double foodTotalSum = Double.parseDouble(matcher.group());&#10;&#10;        if (Math.abs(foodTotalSum - 3.5) &gt; 0.0001) {&#10;            return new CheckResult(false,&#10;                &quot;Your food total sum is wrong!&quot;);&#10;        }&#10;&#10;        //Clothes&#10;        String clothesList = blocks[14];&#10;&#10;        if (!clothesList.contains(&quot;Men's Dual Defense Crew Socks 12 Pairs&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Wrong clothes purchase list.\nExpected:\n&quot; +&#10;                    &quot;Clothes:\n&quot; +&#10;                    &quot;Men's Dual Defense Crew Socks 12 Pairs $13.00\n&quot; +&#10;                    &quot;Total sum: $13.00\n&quot; +&#10;                    &quot;Your output:\n&quot; + clothesList);&#10;        }&#10;&#10;        temp = clothesList.split(&quot;\n&quot;);&#10;        totalSum = temp[temp.length - 1];&#10;&#10;        matcher = doublePattern.matcher(totalSum);&#10;&#10;        if (!matcher.find()) {&#10;            return new CheckResult(false,&#10;                &quot;Your clothes total sum is wrong!\n&quot; +&#10;                    &quot;Expected:\n&quot; +&#10;                    &quot;Total sum: $13.00\n&quot; +&#10;                    &quot;Your output:\n&quot; +&#10;                    totalSum);&#10;        }&#10;&#10;        double clothesTotalSum = Double.parseDouble(matcher.group());&#10;&#10;        if (Math.abs(clothesTotalSum - 13) &gt; 0.0001) {&#10;            return new CheckResult(false,&#10;                &quot;Your clothes total sum is wrong!&quot;);&#10;        }&#10;&#10;        //Entertainment&#10;        String entertainmentList = blocks[16];&#10;&#10;        if (!entertainmentList.contains(&quot;Cinema&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Wrong entertainment purchase list.\nExpected:\n&quot; +&#10;                    &quot;Entertainment:\n&quot; +&#10;                    &quot;Cinema $8.73\n&quot; +&#10;                    &quot;Total sum: $8.73\n&quot; +&#10;                    &quot;Your output:\n&quot; + entertainmentList);&#10;        }&#10;&#10;        temp = entertainmentList.split(&quot;\n&quot;);&#10;        totalSum = temp[temp.length - 1];&#10;&#10;        matcher = doublePattern.matcher(totalSum);&#10;&#10;        if (!matcher.find()) {&#10;            return new CheckResult(false,&#10;                &quot;Your entertainment total sum is wrong!\n&quot; +&#10;                    &quot;Expected:\n&quot; +&#10;                    &quot;Total sum: $8.73\n&quot; +&#10;                    &quot;Your output:\n&quot; +&#10;                    totalSum);&#10;        }&#10;&#10;        double entertainmentTotalSum = Double.parseDouble(matcher.group());&#10;&#10;        if (Math.abs(entertainmentTotalSum - 8.73) &gt; 0.0001) {&#10;            return new CheckResult(false,&#10;                &quot;Your entertainment total sum is wrong!&quot;);&#10;        }&#10;&#10;        //All&#10;        String allList = blocks[18];&#10;&#10;        if (!allList.contains(&quot;Milk&quot;)&#10;            || !allList.contains(&quot;Men's Dual Defense Crew Socks 12 Pairs&quot;)&#10;            || !allList.contains(&quot;Cinema&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Wrong all purchase list.\n&quot; +&#10;                    &quot;Expected:\n&quot; +&#10;                    &quot;All:\n&quot; +&#10;                    &quot;Milk $3.50\n&quot; +&#10;                    &quot;Men's Dual Defense Crew Socks 12 Pairs $13.00\n&quot; +&#10;                    &quot;Cinema $8.73\n&quot; +&#10;                    &quot;Total sum: $25.23&quot; +&#10;                    &quot;Your output:\n&quot; + allList);&#10;        }&#10;&#10;        temp = allList.split(&quot;\n&quot;);&#10;        totalSum = temp[temp.length - 1];&#10;&#10;        matcher = doublePattern.matcher(totalSum);&#10;&#10;        if (!matcher.find()) {&#10;            return new CheckResult(false,&#10;                &quot;Your all total sum is wrong!\n&quot; +&#10;                    &quot;Expected:\n&quot; +&#10;                    &quot;Total sum: $25.23\n&quot; +&#10;                    &quot;Your output:\n&quot; +&#10;                    totalSum);&#10;        }&#10;&#10;        double allTotalSum = Double.parseDouble(matcher.group());&#10;&#10;        if (Math.abs(allTotalSum - 25.23) &gt; 0.0001) {&#10;            return new CheckResult(false,&#10;                &quot;Your all total sum is wrong!&quot;);&#10;        }&#10;&#10;&#10;        return new CheckResult(true);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/budget/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/budget/Main.java" />
+                                <option name="text" value="package budget;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        // write your code here&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/budget/Main.class">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/budget/Main.class" />
+                                <option name="text" value="" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" value="stage4" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;What's the point of counting the money if the results are lost and forgotten once you close the program? To allow for some long-term budget planning, we need to save purchases to file. Add items Save and Load to the menu.&lt;/p&gt;&#10;&#10;&lt;p&gt;&lt;strong&gt;Save &lt;/strong&gt;should save all purchases to the file.&lt;br&gt;&#10;&lt;strong&gt;Load &lt;/strong&gt;should load all purchases from the file.&lt;/p&gt;&#10;&#10;&lt;p&gt;Use the &lt;code&gt;purchases.txt&lt;/code&gt; file to store purchases.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Examples&lt;/h2&gt;&#10;&#10;&lt;p&gt;Note that lines beginning with &lt;code&gt;&amp;gt;&lt;/code&gt; are user input data (not including &lt;code&gt;&amp;gt;&lt;/code&gt; symbol itself).&lt;/p&gt;&#10;&#10;&lt;p&gt;&lt;strong&gt;Example 1:&lt;/strong&gt;&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;5) Save&#10;6) Load&#10;0) Exit&#10;&amp;gt;1&#10;&#10;Enter income:&#10;&amp;gt;1000&#10;Income was added!&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;5) Save&#10;6) Load&#10;0) Exit&#10;&amp;gt;2&#10;&#10;Choose the type of purchase&#10;1) Food&#10;2) Clothes&#10;3) Entertainment&#10;4) Other&#10;5) Back&#10;&amp;gt;1&#10;&#10;Enter purchase name:&#10;&amp;gt;Almond 250g&#10;Enter its price:&#10;&amp;gt;35.43&#10;Purchase was added!&#10;&#10;Choose the type of purchase&#10;1) Food&#10;2) Clothes&#10;3) Entertainment&#10;4) Other&#10;5) Back&#10;&amp;gt;5&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;5) Save&#10;6) Load&#10;0) Exit&#10;&amp;gt;5&#10;&#10;Purchases were saved!&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;5) Save&#10;6) Load&#10;0) Exit&#10;&amp;gt;0&#10;&#10;Bye!&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;p&gt;&lt;strong&gt;Example 2:&lt;/strong&gt;&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;5) Save&#10;6) Load&#10;0) Exit&#10;&amp;gt;6&#10;&#10;Purchases were loaded!&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;5) Save&#10;6) Load&#10;0) Exit&#10;&amp;gt;3&#10;&#10;Choose the type of purchases&#10;1) Food&#10;2) Clothes&#10;3) Entertainment&#10;4) Other&#10;5) All&#10;6) Back&#10;&amp;gt;1&#10;&#10;Food:&#10;Almond 250g $35.43&#10;Total sum: $35.43&#10;&#10;Choose the type of purchases&#10;1) Food&#10;2) Clothes&#10;3) Entertainment&#10;4) Other&#10;5) All&#10;6) Back&#10;&amp;gt;5&#10;&#10;All:&#10;Almond 250g $35.43&#10;Total sum: $35.43&#10;&#10;Choose the type of purchases&#10;1) Food&#10;2) Clothes&#10;3) Entertainment&#10;4) Other&#10;5) All&#10;6) Back&#10;&amp;gt;6&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;5) Save&#10;6) Load&#10;0) Exit&#10;&amp;gt;4&#10;&#10;Balance: $964.57&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;5) Save&#10;6) Load&#10;0) Exit&#10;&amp;gt;0&#10;&#10;Bye!&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/76/stages/424/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="7027" />
+                      <option name="index" value="4" />
+                      <option name="name" value="Memorable purchases" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/BudgetManagerTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/BudgetManagerTest.java" />
+                                <option name="text" value="import budget.Main;&#10;import org.hyperskill.hstest.v6.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v6.testcase.CheckResult;&#10;import org.hyperskill.hstest.v6.testcase.TestCase;&#10;&#10;import java.io.File;&#10;import java.util.List;&#10;import java.util.regex.Matcher;&#10;import java.util.regex.Pattern;&#10;&#10;public class BudgetManagerTest extends BaseStageTest&lt;String&gt; {&#10;&#10;    public BudgetManagerTest() {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;String&gt;&gt; generate() {&#10;        return List.of(&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;0\n&quot;)&#10;                .setCheckFunc(BudgetManagerTest::test1),&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;0\n&quot;)&#10;                .setCheckFunc(BudgetManagerTest::test2),&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;4\n0&quot;)&#10;                .setCheckFunc(BudgetManagerTest::test3),&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;1\n400\n4\n1\n200\n4\n0&quot;)&#10;                .setCheckFunc(BudgetManagerTest::test4),&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;1\n1000\n2\n&quot; +&#10;                    &quot;1\nAlmond 250g\n35.43\n&quot; +&#10;                    &quot;1\nMilk\n3.50\n&quot; +&#10;                    &quot;1\nRed Fuji Apple\n5.99\n&quot; +&#10;                    &quot;1\nEggs\n3.99\n&quot; +&#10;                    &quot;1\nFIJI Natural Artesian Water\n25.98\n&quot; +&#10;                    &quot;1\nHershey's milk chocolate bars\n8.54\n&quot; +&#10;                    &quot;1\nGreat Value Broccoli Florets\n1.00\n&quot; +&#10;                    &quot;1\nKeystone Ground Bee\n6.28\n&quot; +&#10;                    &quot;2\nGildan LT\n8.61\n&quot; +&#10;                    &quot;2\nMen's Dual Defense Crew Socks 12 Pairs\n13.00\n&quot; +&#10;                    &quot;2\nWrangler Men's Stretch Cargo Pant\n19.97\n&quot; +&#10;                    &quot;3\nLEGO DUPLO Town Farm Animals\n10.10\n&quot; +&#10;                    &quot;3\nCinema\n8.73\n&quot; +&#10;                    &quot;3\nSkate rental\n30\n&quot; +&#10;                    &quot;4\nSensodyne Pronamel Toothpaste\n19.74\n&quot; +&#10;                    &quot;4\nChick-fil-A $10 Gift Card\n10\n&quot; +&#10;                    &quot;4\nDebt\n3.50\n&quot; +&#10;                    &quot;5\n5\n0&quot;).setCheckFunc(BudgetManagerTest::test5),&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;6\n4\n3\n5\n1\n6\n0&quot;)&#10;                .setCheckFunc(BudgetManagerTest::test6)&#10;        );&#10;    }&#10;&#10;    //Checking program stop&#10;    private static CheckResult test1(String reply, String attach) {&#10;        if (!reply.contains(&quot;Bye!&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Your program should stop after choosing \&quot;Exit\&quot;&quot;);&#10;        }&#10;        return new CheckResult(true);&#10;    }&#10;&#10;&#10;    //Checking menu&#10;    private static CheckResult test2(String reply, String attach) {&#10;        String[] menuPatterns = {&quot;1)&quot;, &quot;2)&quot;, &quot;3)&quot;, &quot;4)&quot;, &quot;0)&quot;};&#10;        for (String menuPattern : menuPatterns) {&#10;            if (!reply.contains(menuPattern)) {&#10;                return new CheckResult(false,&#10;                    &quot;Your menu doesn't have item &quot; + menuPattern);&#10;            }&#10;        }&#10;        return new CheckResult(true);&#10;    }&#10;&#10;&#10;    //Checking balance&#10;    private static CheckResult test3(String reply, String attach) {&#10;&#10;        String[] blocks = reply.split(&quot;\n(\n+)?\n&quot;);&#10;&#10;        if (blocks.length != 4) {&#10;            return new CheckResult(false,&#10;                &quot;Your program shows wrong blocks of output. Expected: 4\n&quot; +&#10;                    &quot;You have: &quot; + blocks.length + &quot;\n&quot; +&#10;                    &quot;Make sure that you print an empty line after each chosen action&quot;);&#10;        }&#10;&#10;        String balance = blocks[1];&#10;&#10;        if (!balance.toLowerCase().contains(&quot;balance&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Your program should show balance after choosing 4th item&quot;);&#10;        }&#10;&#10;        Pattern doublePattern = Pattern.compile(&quot;\\d+[,.]\\d+&quot;);&#10;        Matcher matcher = doublePattern.matcher(balance);&#10;&#10;        if (!matcher.find()) {&#10;            return new CheckResult(false,&#10;                &quot;Your balance should contain a number!&quot;);&#10;        }&#10;&#10;        double balanceDouble = Double.parseDouble(matcher.group());&#10;&#10;        if (Math.abs(balanceDouble - 0) &gt; 0.0001) {&#10;            System.out.println(balance);&#10;            return new CheckResult(false,&#10;                &quot;Balance should be $0.00 at the beginning&quot;);&#10;        }&#10;&#10;        return new CheckResult(true);&#10;    }&#10;&#10;&#10;    //Checking adding income&#10;    private static CheckResult test4(String reply, String attach) {&#10;&#10;        String[] blocks = reply.split(&quot;\n(\n+)?\n&quot;);&#10;&#10;        if (blocks.length != 10) {&#10;            return new CheckResult(false,&#10;                &quot;Your program shows wrong blocks of output. Expected: 10\n&quot; +&#10;                    &quot;You have: &quot; + blocks.length + &quot;\n&quot; +&#10;                    &quot;Make sure that you print an empty line after each chosen action&quot;);&#10;        }&#10;&#10;        String balanceAfterFirstAddingIncome = blocks[3];&#10;&#10;        if (!balanceAfterFirstAddingIncome.contains(&quot;$400&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Balance is wrong after adding income!.\n&quot; +&#10;                    &quot;Expected:\n&quot; +&#10;                    &quot;Balance: $400.00\n&quot; +&#10;                    &quot;Your output:\n&quot; +&#10;                    balanceAfterFirstAddingIncome);&#10;        }&#10;&#10;        return new CheckResult(true);&#10;    }&#10;&#10;    //Checking the saving purchases&#10;    private static CheckResult test5(String reply, String attach) {&#10;        File file = new File(&quot;purchases.txt&quot;);&#10;        if (!file.exists()) {&#10;            return new CheckResult(false,&#10;                &quot;Your program should create purchases.txt file and save purchases there!&quot;);&#10;        }&#10;        return new CheckResult(true);&#10;    }&#10;&#10;    //Checking the downloading purchases&#10;    private static CheckResult test6(String reply, String attach) {&#10;&#10;        String[] blocks = reply.split(&quot;\n(\n+)?\n&quot;);&#10;&#10;        if (blocks.length != 12) {&#10;            return new CheckResult(false,&#10;                &quot;Your program shows wrong blocks of output. Expected: 12\n&quot; +&#10;                    &quot;You have: &quot; + blocks.length + &quot;\n&quot; +&#10;                    &quot;Make sure that you print an empty line after each chosen action&quot;);&#10;        }&#10;&#10;        String balanceAfterDownloadingPurchases = blocks[3];&#10;&#10;        if (!balanceAfterDownloadingPurchases.replace(&quot;,&quot;, &quot;.&quot;).contains(&quot;785.64&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Your program reads balance from file wrong!&quot;);&#10;        }&#10;&#10;        //All purchases list&#10;&#10;        String allPurchases = blocks[6];&#10;&#10;        String[] expectedPurchases = {&#10;            &quot;Almond 250g $35.43&quot;,&#10;            &quot;Milk $3.50&quot;,&#10;            &quot;Red Fuji Apple $5.99&quot;,&#10;            &quot;Eggs $3.99&quot;,&#10;            &quot;FIJI Natural Artesian Water $25.98&quot;,&#10;            &quot;Hershey's milk chocolate bars $8.54&quot;,&#10;            &quot;Great Value Broccoli Florets $1.00&quot;,&#10;            &quot;Keystone Ground Bee $6.28&quot;,&#10;            &quot;Gildan LT $8.61&quot;,&#10;            &quot;Men's Dual Defense Crew Socks 12 Pairs $13.00&quot;,&#10;            &quot;Wrangler Men's Stretch Cargo Pant $19.97&quot;,&#10;            &quot;LEGO DUPLO Town Farm Animals $10.10&quot;,&#10;            &quot;Cinema $8.73&quot;,&#10;            &quot;Skate rental $30.00&quot;,&#10;            &quot;Sensodyne Pronamel Toothpaste $19.74&quot;,&#10;            &quot;Chick-fil-A $10 Gift Card $10.00&quot;,&#10;            &quot;Debt $3.50&quot;&#10;        };&#10;&#10;        for (String expectedPurchase : expectedPurchases) {&#10;            if (!allPurchases.contains(expectedPurchase)) {&#10;                return new CheckResult(false,&#10;                    &quot;Your all purchases list doesn't have purchase:\n&quot; +&#10;                        expectedPurchase + &quot;\n&quot; +&#10;                        &quot;But should have!&quot;);&#10;            }&#10;        }&#10;&#10;        String[] temp = allPurchases.split(&quot;\n&quot;);&#10;        String totalSum = temp[temp.length - 1];&#10;&#10;        Pattern doublePattern = Pattern.compile(&quot;\\d+[,.]\\d+&quot;);&#10;        Matcher matcher = doublePattern.matcher(totalSum);&#10;&#10;        if (!matcher.find()) {&#10;            return new CheckResult(false,&#10;                &quot;Total sum of all purchases is wrong. Expected:\n&quot; +&#10;                    &quot;Total sum: $214.36\n&quot; +&#10;                    &quot;Your output:\n&quot; +&#10;                    totalSum);&#10;        }&#10;&#10;        double allTotalSum = Double.parseDouble(matcher.group());&#10;&#10;        if (Math.abs(allTotalSum - 214.36) &gt; 0.0001) {&#10;            return new CheckResult(false,&#10;                &quot;Your all total sum is wrong!&quot;);&#10;        }&#10;&#10;&#10;        //Food list&#10;&#10;        String foodList = blocks[8];&#10;&#10;        expectedPurchases = new String[] {&#10;            &quot;Almond 250g $35.43&quot;,&#10;            &quot;Milk $3.50&quot;,&#10;            &quot;Red Fuji Apple $5.99&quot;,&#10;            &quot;Eggs $3.99&quot;,&#10;            &quot;FIJI Natural Artesian Water $25.98&quot;,&#10;            &quot;Hershey's milk chocolate bars $8.54&quot;,&#10;            &quot;Great Value Broccoli Florets $1.00&quot;,&#10;            &quot;Keystone Ground Bee $6.28&quot;&#10;        };&#10;&#10;        for (String expectedPurchase : expectedPurchases) {&#10;            if (!foodList.contains(expectedPurchase)) {&#10;                return new CheckResult(false,&#10;                    &quot;Your food list doesn't have purchase:\n&quot; +&#10;                        expectedPurchase + &quot;\n&quot; +&#10;                        &quot;But should have!&quot;);&#10;            }&#10;        }&#10;&#10;        temp = foodList.split(&quot;\n&quot;);&#10;        totalSum = temp[temp.length - 1];&#10;&#10;        matcher = doublePattern.matcher(totalSum);&#10;&#10;        if (!matcher.find()) {&#10;            return new CheckResult(false,&#10;                &quot;Total sum of food list is wrong. Expected:\n&quot; +&#10;                    &quot;Total sum: $90.71\n&quot; +&#10;                    &quot;Your output:\n&quot; +&#10;                    totalSum);&#10;        }&#10;&#10;        double foodTotalSum = Double.parseDouble(matcher.group());&#10;&#10;        if (Math.abs(foodTotalSum - 90.71) &gt; 0.0001) {&#10;            return new CheckResult(false,&#10;                &quot;Your food total sum is wrong!&quot;);&#10;        }&#10;&#10;        return new CheckResult(true);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/budget/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/budget/Main.java" />
+                                <option name="text" value="package budget;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        // write your code here&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" value="stage5" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;Do you know how much money you spend on food? On entertainment? It's quite interesting to know since the main purpose of this application is to analyze your expenses. Let's implement this feature! &lt;/p&gt;&#10;&#10;&lt;p&gt;First, add the &lt;code&gt;Analyze&lt;/code&gt; item to the menu. This way you will request an analysis of your purchases.&lt;/p&gt;&#10;&#10;&lt;p&gt;Once this item is called you need to offer a way to sort the purchases.&lt;/p&gt;&#10;&#10;&lt;p&gt;There are three of them:&lt;/p&gt;&#10;&#10;&lt;ol&gt;&#10;&#9;&lt;li&gt;&lt;strong&gt;Sort All&lt;/strong&gt; – sort the entire shopping list and display it so that the most expensive purchases are at the top of the list.&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;strong&gt;Sort By Type&lt;/strong&gt; – show which category eats the most money.&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;strong&gt;Sort Certain Type&lt;/strong&gt; – same as Sort All, but for a specific category.&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Example&lt;/h2&gt;&#10;&#10;&lt;p&gt;Note that lines beginning with &lt;code&gt;&amp;gt;&lt;/code&gt; are user input data (not including &lt;code&gt;&amp;gt;&lt;/code&gt; symbol itself).&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;5) Save&#10;6) Load&#10;7) Analyze (Sort)&#10;0) Exit&#10;&amp;gt;7&#10;&#10;How do you want to sort?&#10;1) Sort all purchases&#10;2) Sort by type&#10;3) Sort certain type&#10;4) Back&#10;&amp;gt;1&#10;&#10;Purchase list is empty!&#10;&#10;How do you want to sort?&#10;1) Sort all purchases&#10;2) Sort by type&#10;3) Sort certain type&#10;4) Back&#10;&amp;gt;4&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;5) Save&#10;6) Load&#10;7) Analyze (Sort)&#10;0) Exit&#10;&amp;gt;6&#10;&#10;Purchases were loaded!&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;5) Save&#10;6) Load&#10;7) Analyze (Sort)&#10;0) Exit&#10;&amp;gt;7&#10;&#10;How do you want to sort?&#10;1) Sort all purchases&#10;2) Sort by type&#10;3) Sort certain type&#10;4) Back&#10;&amp;gt;1&#10;&#10;All:&#10;Almond 250g $35.43&#10;Skate rental $30.00&#10;FIJI Natural Artesian Water $25.98&#10;Wrangler Men's Stretch Cargo Pant $19.97&#10;Sensodyne Pronamel Toothpaste $19.74&#10;Men's Dual Defense Crew Socks 12 Pairs $13.00&#10;LEGO DUPLO Town Farm Animals $10.10&#10;Chick-fil-A $10 Gift Card $10.00&#10;Cinema $8.73&#10;Gildan LT $8.61&#10;Hershey's milk chocolate bars $8.54&#10;Keystone Ground Beef $6.28&#10;Red Fuji Apple $5.99&#10;Eggs $3.99&#10;Milk $3.50&#10;Debt $3.50&#10;Great Value Broccoli Florets $1.00&#10;Total: $214.36&#10;&#10;How do you want to sort?&#10;1) Sort all purchases&#10;2) Sort by type&#10;3) Sort certain type&#10;4) Back&#10;&amp;gt;2&#10;&#10;Types:&#10;Food - $90.71&#10;Entertainment - $48.83&#10;Clothes - $41.58&#10;Other - $33.24&#10;Total sum: $214.36&#10;&#10;How do you want to sort?&#10;1) Sort all purchases&#10;2) Sort by type&#10;3) Sort certain type&#10;4) Back&#10;&amp;gt;3&#10;&#10;Choose the type of purchase&#10;1) Food&#10;2) Clothes&#10;3) Entertainment&#10;4) Other&#10;&amp;gt;1&#10; &#10;Food:&#10;Almond 250g $35.43&#10;FIJI Natural Artesian Water $25.98&#10;Hershey's milk chocolate bars $8.54&#10;Keystone Ground Bee $6.28&#10;Red Fuji Apple $5.99&#10;Eggs $3.99&#10;Milk $3.50&#10;Great Value Broccoli Florets $1.00&#10;Total sum: $90.71&#10;&#10;How do you want to sort?&#10;1) Sort all purchases&#10;2) Sort by type&#10;3) Sort certain type&#10;4) Back&#10;&amp;gt;4&#10;&#10;Choose your action:&#10;1) Add income&#10;2) Add purchase&#10;3) Show list of purchases&#10;4) Balance&#10;5) Save&#10;6) Load&#10;7) Analyze (Sort)&#10;0) Exit&#10;&amp;gt;0&#10;&#10;Bye!&#10;&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/76/stages/425/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="7028" />
+                      <option name="index" value="5" />
+                      <option name="name" value="Analyzer" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/BudgetManagerTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/BudgetManagerTest.java" />
+                                <option name="text" value="import budget.Main;&#10;import org.hyperskill.hstest.v6.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v6.testcase.CheckResult;&#10;import org.hyperskill.hstest.v6.testcase.TestCase;&#10;&#10;import java.io.File;&#10;import java.util.List;&#10;import java.util.regex.Matcher;&#10;import java.util.regex.Pattern;&#10;&#10;public class BudgetManagerTest extends BaseStageTest&lt;String&gt; {&#10;&#10;    public BudgetManagerTest() {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;String&gt;&gt; generate() {&#10;        return List.of(&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;0\n&quot;)&#10;                .setCheckFunc(BudgetManagerTest::test1),&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;0\n&quot;)&#10;                .setCheckFunc(BudgetManagerTest::test2),&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;4\n0&quot;)&#10;                .setCheckFunc(BudgetManagerTest::test3),&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;1\n400\n4\n1\n200\n4\n0&quot;)&#10;                .setCheckFunc(BudgetManagerTest::test4),&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;1\n1000\n2\n&quot; +&#10;                    &quot;1\nAlmond 250g\n35.43\n&quot; +&#10;                    &quot;1\nMilk\n3.50\n&quot; +&#10;                    &quot;1\nRed Fuji Apple\n5.99\n&quot; +&#10;                    &quot;1\nEggs\n3.99\n&quot; +&#10;                    &quot;1\nFIJI Natural Artesian Water\n25.98\n&quot; +&#10;                    &quot;1\nHershey's milk chocolate bars\n8.54\n&quot; +&#10;                    &quot;1\nGreat Value Broccoli Florets\n1.00\n&quot; +&#10;                    &quot;1\nKeystone Ground Bee\n6.28\n&quot; +&#10;                    &quot;2\nGildan LT\n8.61\n&quot; +&#10;                    &quot;2\nMen's Dual Defense Crew Socks 12 Pairs\n13.00\n&quot; +&#10;                    &quot;2\nWrangler Men's Stretch Cargo Pant\n19.97\n&quot; +&#10;                    &quot;3\nLEGO DUPLO Town Farm Animals\n10.10\n&quot; +&#10;                    &quot;3\nCinema\n8.73\n&quot; +&#10;                    &quot;3\nSkate rental\n30\n&quot; +&#10;                    &quot;4\nSensodyne Pronamel Toothpaste\n19.74\n&quot; +&#10;                    &quot;4\nChick-fil-A $10 Gift Card\n10\n&quot; +&#10;                    &quot;4\nDebt\n3.50\n&quot; +&#10;                    &quot;5\n5\n0&quot;)&#10;                .setCheckFunc(BudgetManagerTest::test5),&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;6\n4\n3\n5\n1\n6\n0&quot;)&#10;                .setCheckFunc(BudgetManagerTest::test6),&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;7\n1\n2\n3\n4\n4\n6\n7\n1\n2\n3\n1\n4\n0&quot;)&#10;                .setCheckFunc(BudgetManagerTest::test7)&#10;        );&#10;    }&#10;&#10;&#10;    //Checking program stop&#10;    private static CheckResult test1(String reply, String attach) {&#10;        if (!reply.contains(&quot;Bye!&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Your program should stop after choosing \&quot;Exit\&quot;&quot;);&#10;        }&#10;        return new CheckResult(true);&#10;    }&#10;&#10;&#10;    //Checking menu&#10;    private static CheckResult test2(String reply, String attach) {&#10;        String[] menuPatterns = {&quot;1)&quot;, &quot;2)&quot;, &quot;3)&quot;, &quot;4)&quot;, &quot;0)&quot;};&#10;        for (String menuPattern : menuPatterns) {&#10;            if (!reply.contains(menuPattern)) {&#10;                return new CheckResult(false,&#10;                    &quot;Your menu doesn't have item &quot; + menuPattern);&#10;            }&#10;        }&#10;        return new CheckResult(true);&#10;    }&#10;&#10;&#10;    //Checking balance&#10;    private static CheckResult test3(String reply, String attach) {&#10;&#10;        String[] blocks = reply.split(&quot;\n(\n+)?\n&quot;);&#10;&#10;        if (blocks.length != 4) {&#10;            return new CheckResult(false,&#10;                &quot;Your program shows wrong blocks of output. Expected: 4\n&quot; +&#10;                    &quot;You have: &quot; + blocks.length + &quot;\n&quot; +&#10;                    &quot;Make sure that you print an empty line after each chosen action&quot;);&#10;        }&#10;&#10;        String balance = blocks[1];&#10;&#10;        if (!balance.toLowerCase().contains(&quot;balance&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Your program should show balance after choosing 4th item&quot;);&#10;        }&#10;&#10;        Pattern doublePattern = Pattern.compile(&quot;\\d+[,.]\\d+&quot;);&#10;        Matcher matcher = doublePattern.matcher(balance);&#10;&#10;        if (!matcher.find()) {&#10;            return new CheckResult(false,&#10;                &quot;Your balance should contain a number!&quot;);&#10;        }&#10;&#10;        double balanceDouble = Double.parseDouble(matcher.group());&#10;&#10;        if (Math.abs(balanceDouble - 0) &gt; 0.0001) {&#10;            System.out.println(balance);&#10;            return new CheckResult(false,&#10;                &quot;Balance should be $0.00 at the beginning&quot;);&#10;        }&#10;&#10;        return new CheckResult(true);&#10;    }&#10;&#10;&#10;    //Checking adding income&#10;    private static CheckResult test4(String reply, String attach) {&#10;&#10;        String[] blocks = reply.split(&quot;\n(\n+)?\n&quot;);&#10;&#10;        if (blocks.length != 10) {&#10;            return new CheckResult(false,&#10;                &quot;Your program shows wrong blocks of output. Expected: 10\n&quot; +&#10;                    &quot;You have: &quot; + blocks.length + &quot;\n&quot; +&#10;                    &quot;Make sure that you print an empty line after each chosen action&quot;);&#10;        }&#10;&#10;        String balanceAfterFirstAddingIncome = blocks[3];&#10;&#10;        if (!balanceAfterFirstAddingIncome.contains(&quot;$400&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Balance is wrong after adding income!.\n&quot; +&#10;                    &quot;Expected:\n&quot; +&#10;                    &quot;Balance: $400.00\n&quot; +&#10;                    &quot;Your output:\n&quot; +&#10;                    balanceAfterFirstAddingIncome);&#10;        }&#10;&#10;        return new CheckResult(true);&#10;    }&#10;&#10;    //Checking the saving purchases&#10;    private static CheckResult test5(String reply, String attach) {&#10;        File file = new File(&quot;purchases.txt&quot;);&#10;        if (!file.exists()) {&#10;            return new CheckResult(false,&#10;                &quot;Your program should create purchase.txt file and save purchases there!&quot;);&#10;        }&#10;        return new CheckResult(true);&#10;    }&#10;&#10;    //Checking the downloading purchases&#10;    private static CheckResult test6(String reply, String attach) {&#10;&#10;        String[] blocks = reply.split(&quot;\n(\n+)?\n&quot;);&#10;&#10;        if (blocks.length != 12) {&#10;            return new CheckResult(false,&#10;                &quot;Your program shows wrong blocks of output. Expected: 12\n&quot; +&#10;                    &quot;You have: &quot; + blocks.length + &quot;\n&quot; +&#10;                    &quot;Make sure that you print an empty line after each chosen action&quot;);&#10;        }&#10;&#10;        String balanceAfterDownloadingPurchases = blocks[3];&#10;&#10;        if (!balanceAfterDownloadingPurchases.replace(&quot;,&quot;, &quot;.&quot;).contains(&quot;785.64&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Your program reads balance from file wrong!&quot;);&#10;        }&#10;&#10;        //All purchases list&#10;&#10;        String allPurchases = blocks[6];&#10;&#10;        String[] expectedPurchases = {&#10;            &quot;Almond 250g $35.43&quot;,&#10;            &quot;Milk $3.50&quot;,&#10;            &quot;Red Fuji Apple $5.99&quot;,&#10;            &quot;Eggs $3.99&quot;,&#10;            &quot;FIJI Natural Artesian Water $25.98&quot;,&#10;            &quot;Hershey's milk chocolate bars $8.54&quot;,&#10;            &quot;Great Value Broccoli Florets $1.00&quot;,&#10;            &quot;Keystone Ground Bee $6.28&quot;,&#10;            &quot;Gildan LT $8.61&quot;,&#10;            &quot;Men's Dual Defense Crew Socks 12 Pairs $13.00&quot;,&#10;            &quot;Wrangler Men's Stretch Cargo Pant $19.97&quot;,&#10;            &quot;LEGO DUPLO Town Farm Animals $10.10&quot;,&#10;            &quot;Cinema $8.73&quot;,&#10;            &quot;Skate rental $30.00&quot;,&#10;            &quot;Sensodyne Pronamel Toothpaste $19.74&quot;,&#10;            &quot;Chick-fil-A $10 Gift Card $10.00&quot;,&#10;            &quot;Debt $3.50&quot;&#10;        };&#10;&#10;        for (String expectedPurchase : expectedPurchases) {&#10;            if (!allPurchases.contains(expectedPurchase)) {&#10;                return new CheckResult(false,&#10;                    &quot;Your all purchases list doesn't have purchase:\n&quot; +&#10;                        expectedPurchase + &quot;\n&quot; +&#10;                        &quot;But should have!&quot;);&#10;            }&#10;        }&#10;&#10;        String[] temp = allPurchases.split(&quot;\n&quot;);&#10;        String totalSum = temp[temp.length - 1];&#10;&#10;        Pattern doublePattern = Pattern.compile(&quot;\\d+[,.]\\d+&quot;);&#10;        Matcher matcher = doublePattern.matcher(totalSum);&#10;&#10;        if (!matcher.find()) {&#10;            return new CheckResult(false,&#10;                &quot;Total sum of all purchases is wrong. Expected:\n&quot; +&#10;                    &quot;Total sum: $214.36\n&quot; +&#10;                    &quot;Your output:\n&quot; +&#10;                    totalSum);&#10;        }&#10;&#10;        double allTotalSum = Double.parseDouble(matcher.group());&#10;&#10;        if (Math.abs(allTotalSum - 214.36) &gt; 0.0001) {&#10;            return new CheckResult(false,&#10;                &quot;Your all total sum is wrong!&quot;);&#10;        }&#10;&#10;        //Food list&#10;&#10;        String foodList = blocks[8];&#10;&#10;        expectedPurchases = new String[] {&#10;            &quot;Almond 250g $35.43&quot;,&#10;            &quot;Milk $3.50&quot;,&#10;            &quot;Red Fuji Apple $5.99&quot;,&#10;            &quot;Eggs $3.99&quot;,&#10;            &quot;FIJI Natural Artesian Water $25.98&quot;,&#10;            &quot;Hershey's milk chocolate bars $8.54&quot;,&#10;            &quot;Great Value Broccoli Florets $1.00&quot;,&#10;            &quot;Keystone Ground Bee $6.28&quot;&#10;        };&#10;&#10;        for (String expectedPurchase : expectedPurchases) {&#10;            if (!foodList.contains(expectedPurchase)) {&#10;                return new CheckResult(false,&#10;                    &quot;Your food list doesn't have purchase:\n&quot; +&#10;                        expectedPurchase + &quot;\n&quot; +&#10;                        &quot;But should have!&quot;);&#10;            }&#10;        }&#10;&#10;        temp = foodList.split(&quot;\n&quot;);&#10;        totalSum = temp[temp.length - 1];&#10;&#10;        matcher = doublePattern.matcher(totalSum);&#10;&#10;        if (!matcher.find()) {&#10;            return new CheckResult(false,&#10;                &quot;Total sum of food list is wrong. Expected:\n&quot; +&#10;                    &quot;Total sum: $90.71\n&quot; +&#10;                    &quot;Your output:\n&quot; + totalSum);&#10;        }&#10;&#10;        double foodTotalSum = Double.parseDouble(matcher.group());&#10;&#10;        if (Math.abs(foodTotalSum - 90.71) &gt; 0.0001) {&#10;            return new CheckResult(false,&#10;                &quot;Your food total sum is wrong!&quot;);&#10;        }&#10;&#10;        return new CheckResult(true);&#10;    }&#10;&#10;&#10;    //Sorting check&#10;    private static CheckResult test7(String reply, String attach) {&#10;&#10;        String[] blocks = reply.split(&quot;\n(\n+)?\n&quot;);&#10;&#10;        if (blocks.length != 22) {&#10;            return new CheckResult(false,&#10;                &quot;Your program shows wrong blocks of output. Expected: 22\n&quot; +&#10;                    &quot;You have: &quot; + blocks.length + &quot;\n&quot; +&#10;                    &quot;Make sure that you print an empty line after each chosen action&quot;);&#10;        }&#10;&#10;        String sortEmptyAllPurchases = blocks[2];&#10;&#10;        if (!sortEmptyAllPurchases.contains(&quot;list is empty&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;\&quot;Sort all purchases\&quot; item shouldn't work if there are no purchases in the list&quot;);&#10;        }&#10;&#10;        String sortByEmptyType = blocks[4];&#10;&#10;        if (sortByEmptyType.contains(&quot;list is empty&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;\&quot;Sort by type\&quot; item should work even if there are no purchases in the list&quot;);&#10;        }&#10;&#10;        String sortEmptyCertainType = blocks[7];&#10;&#10;        if (!sortEmptyCertainType.contains(&quot;list is empty&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;\&quot;Sort certain type\&quot; item shouldn't work if there are no purchases in the certain list&quot;);&#10;        }&#10;&#10;        String allSorted = blocks[13];&#10;        String rightSorted = &quot;Almond 250g $35.43\n&quot; +&#10;            &quot;Skate rental $30.00\n&quot; +&#10;            &quot;FIJI Natural Artesian Water $25.98\n&quot; +&#10;            &quot;Wrangler Men's Stretch Cargo Pant $19.97\n&quot; +&#10;            &quot;Sensodyne Pronamel Toothpaste $19.74\n&quot; +&#10;            &quot;Men's Dual Defense Crew Socks 12 Pairs $13.00\n&quot; +&#10;            &quot;LEGO DUPLO Town Farm Animals $10.10\n&quot; +&#10;            &quot;Chick-fil-A $10 Gift Card $10.00\n&quot; +&#10;            &quot;Cinema $8.73\n&quot; +&#10;            &quot;Gildan LT $8.61\n&quot; +&#10;            &quot;Hershey's milk chocolate bars $8.54\n&quot; +&#10;            &quot;Keystone Ground Bee $6.28\n&quot; +&#10;            &quot;Red Fuji Apple $5.99\n&quot; +&#10;            &quot;Eggs $3.99\n&quot; +&#10;            &quot;Milk $3.50\n&quot; +&#10;            &quot;Debt $3.50\n&quot; +&#10;            &quot;Great Value Broccoli Florets $1.00\n&quot;;&#10;&#10;        if (!allSorted.contains(rightSorted)) {&#10;            return new CheckResult(false,&#10;                &quot;Your program sort all purchases wrong!\n&quot; +&#10;                    &quot;Expected:\n&quot; +&#10;                    rightSorted + &quot;\n&quot; +&#10;                    &quot;Your output:\n&quot; +&#10;                    allSorted);&#10;        }&#10;&#10;&#10;        String sortedByType = blocks[15];&#10;        String rightSortedByType = &quot;Food - $90.71\n&quot; +&#10;            &quot;Entertainment - $48.83\n&quot; +&#10;            &quot;Clothes - $41.58\n&quot; +&#10;            &quot;Other - $33.24&quot;;&#10;&#10;        if (!sortedByType.contains(rightSortedByType)) {&#10;            return new CheckResult(false,&#10;                &quot;Your program sort by type wrong!\n&quot; +&#10;                    &quot;Expected:\n&quot; +&#10;                    rightSortedByType + &quot;\n&quot; +&#10;                    &quot;Your output:\n&quot; +&#10;                    sortedByType);&#10;        }&#10;&#10;        String sortedCertainType = blocks[18];&#10;        String rightSortedCertainType = &quot;Almond 250g $35.43\n&quot; +&#10;            &quot;FIJI Natural Artesian Water $25.98\n&quot; +&#10;            &quot;Hershey's milk chocolate bars $8.54\n&quot; +&#10;            &quot;Keystone Ground Bee $6.28\n&quot; +&#10;            &quot;Red Fuji Apple $5.99\n&quot; +&#10;            &quot;Eggs $3.99\n&quot; +&#10;            &quot;Milk $3.50\n&quot; +&#10;            &quot;Great Value Broccoli Florets $1.00&quot;;&#10;&#10;        if (!sortedCertainType.contains(rightSortedCertainType)) {&#10;            return new CheckResult(false,&#10;                &quot;Your program sort certain type wrong!\n&quot; +&#10;                    &quot;Expected:\n&quot; +&#10;                    rightSortedCertainType + &quot;\n&quot; +&#10;                    &quot;Your output:\n&quot; +&#10;                    sortedCertainType);&#10;        }&#10;&#10;        return new CheckResult(true);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/budget/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/budget/Main.java" />
+                                <option name="text" value="package budget;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        // write your code here&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </EduTask>
+                  </list>
+                </option>
+              </FrameworkLesson>
+            </list>
+          </option>
+        </HyperskillCourse>
+      </option>
+    </StudyTaskManager>
+  </component>
+</project>

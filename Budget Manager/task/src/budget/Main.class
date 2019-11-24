@@ -1,0 +1,31 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by Fernflower decompiler)
+//
+
+package budget;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Main {
+    public Main() {
+    }
+
+    public static void main(String[] var0) throws IOException {
+        double var1 = 0.0D;
+        BufferedReader var3 = new BufferedReader(new InputStreamReader(System.in));
+
+        for(String var4 = null; (var4 = var3.readLine()) != null; var1 += getPriceFromLine(var4)) {
+        }
+
+        var3.close();
+        System.out.println();
+        System.out.println("Total: $" + var1);
+    }
+
+    private static double getPriceFromLine(String var0) {
+        return Double.parseDouble(var0.split("\\$")[1]);
+    }
+}
