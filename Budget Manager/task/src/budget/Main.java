@@ -1,8 +1,6 @@
 package budget;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.*;
 
 
@@ -14,6 +12,16 @@ public class Main {
     private static Map<String, Double> entertainment = new LinkedHashMap<>();
     private static Map<String, Double> other = new LinkedHashMap<>();
     private static Map<String, Double> fullMap = new LinkedHashMap<>();
+
+    /*
+        Формат файла
+        _БАЛАНС_{int}
+        _ТИП_СПИСКА_(один из : "Food", "Clothes", "Entertainment", "Other"){String}:_РАЗМЕР_{int}
+        _НАЗВАНЕ_ТРАТЫ_{String}
+        _СУММА_ТРАТЫ_{int}
+        till EOF
+     */
+    private static String FILE_NAME = "purchases.txt";
 
     private static List<Map<String, Double>> bucket = new ArrayList<>();
 
@@ -54,6 +62,14 @@ public class Main {
                     showBalance(scanner);
                     System.out.println();
                     break;
+                case 5:
+                    save();
+                    System.out.println();
+                    break;
+                case 6:
+                    load();
+                    System.out.println();
+                    break;
                 case 0:
                     play = false;
                     break;
@@ -63,6 +79,68 @@ public class Main {
         }
 
         System.out.println("Bye!");
+    }
+
+    private static void save() {
+        //todo сохранить мапы по файлу
+        // 1 открыть файл
+        // 2 сохранить баланс
+        // 3 сохранить ("Food", "Clothes", "Entertainment", "Other")
+        // 3.1 определить размер
+        // 3.2 указать метку списка
+        // 3.3 записать трату
+        // 4 закрыть файл
+        try (PrintWriter writer = new PrintWriter(new File(FILE_NAME))) {
+            writer.println(balance);
+            printMap(writer, "FOOD", food);
+            printMap(writer, "CLOTHES", clothes);
+            printMap(writer, "ENTERTAINMENT", entertainment);
+            printMap(writer, "OTHER", other);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        System.out.println("Purchases were saved!");
+    }
+
+    private static void printMap(PrintWriter writer, String type, Map<String, Double> map) {
+        writer.println(type + ":" + map.size());
+        for (Map.Entry<String, Double> entry : map.entrySet()) {
+            writer.println(entry.getKey());
+            writer.println(entry.getValue());
+        }
+    }
+
+    private static void load() {
+        //todo проситать файл и распихать по мапам
+        // 1 открыть файл
+        // 2 сохранить баланс
+        // 3 сохранить ("Food", "Clothes", "Entertainment", "Other")
+        // 3.1 определить размер
+        // 3.2 указать метку списка
+        // 3.3 записать трату
+        // 4 закрыть файл
+        try (Scanner scanner = new Scanner(new File(FILE_NAME))) {
+            balance = Double.parseDouble(scanner.nextLine());
+            readMap(scanner, "FOOD", food);
+            readMap(scanner, "CLOTHES", clothes);
+            readMap(scanner, "ENTERTAINMENT", entertainment);
+            readMap(scanner, "OTHER", other);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        System.out.println("Purchases were loaded!");
+    }
+
+    private static void readMap(Scanner scanner, String type, Map<String, Double> map) {
+        String marker = scanner.nextLine();
+        String name = marker.split(":")[0];
+        int size = Integer.parseInt(marker.split(":")[1]);
+        for (int i = 0; i < size; i++) {
+            String purchase = scanner.nextLine();
+            double price = Double.parseDouble(scanner.nextLine());
+            map.put(purchase, price);
+            fullMap.put(purchase, price);
+        }
     }
 
     private static void addPurchase(Scanner scanner) {
@@ -146,8 +224,10 @@ public class Main {
             System.out.println(labels[action - 1]);
             if (currentMap == null || currentMap.size() < 1) {
                 System.out.println("Purchase list is empty");
+                //кажется тут надо делать return
             } else {
-                currentMap.forEach((k, v) -> System.out.println(k + " $" + v));
+//                currentMap.forEach((k, v) -> System.out.println(k + " $" + v));
+                currentMap.forEach((k, v) -> System.out.println(String.format("%s $%.2f", k, v)));
             }
             showTotalSum(currentMap);
             System.out.println();
@@ -156,11 +236,11 @@ public class Main {
 
     private static void showTotalSum(Map<String, Double> map) {
         Double sum = map.values().stream().reduce(0.0, Double::sum);
-        System.out.println("Total sum: $" + sum);
+        System.out.println(String.format("Total sum: $%.2f", sum));
     }
 
     private static void showBalance(Scanner scanner) {
-        System.out.println("Balance: $" + balance);
+        System.out.println(String.format("Balance: $%.2f", balance));
     }
 
     private static void addIncome(Scanner scanner) {
@@ -175,6 +255,8 @@ public class Main {
         System.out.println("2) Add purchase");
         System.out.println("3) Show list of purchases");
         System.out.println("4) Balance");
+        System.out.println("5) Save");
+        System.out.println("6) Load");
         System.out.println("0) Exit");
     }
 
