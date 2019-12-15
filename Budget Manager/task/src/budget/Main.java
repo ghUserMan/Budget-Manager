@@ -2,6 +2,7 @@ package budget;
 
 import java.io.*;
 import java.util.*;
+import java.util.stream.Stream;
 
 
 public class Main {
@@ -70,6 +71,10 @@ public class Main {
                     load();
                     System.out.println();
                     break;
+                case 7:
+                    analyze(scanner);
+                    System.out.println();
+                    break;
                 case 0:
                     play = false;
                     break;
@@ -79,6 +84,113 @@ public class Main {
         }
 
         System.out.println("Bye!");
+    }
+
+    private static void analyze(Scanner scanner) {
+        int answer;
+        while (true) {
+            System.out.println("How do you want to sort?");
+            System.out.println("1) Sort all purchases");
+            System.out.println("2) Sort by type");
+            System.out.println("3) Sort certain type");
+            System.out.println("4) Back");
+            answer = Integer.parseInt(scanner.nextLine());
+
+            switch (answer) {
+                case 1:
+                    sortMapPurchases("All:", fullMap);
+                    System.out.println();
+                    break;
+                case 2:
+                    sortByType();
+                    System.out.println();
+                    break;
+                case 3:
+                    sortCertainType(scanner);
+                    System.out.println();
+                    break;
+                case 4:
+                    return;
+                default:
+                    throw new IllegalArgumentException("Its only could be 1-4");
+            }
+        }
+    }
+
+    private static void sortMapPurchases(String tag, Map<String, Double> map) {
+        System.out.println();
+
+        if (map == null || map.isEmpty()) {
+            System.out.println("Purchase list is empty!");
+            return;
+        }
+
+        System.out.println(tag);
+        List<Map.Entry<String, Double>> tmp = new ArrayList<>(map.entrySet());
+        tmp.sort((one, two) -> two.getValue().compareTo(one.getValue()));
+
+
+        /*
+        tmp.sort(Comparator.comparing(Map.Entry::getValue));
+         */
+
+        /*
+         tmp.sort((one, two) -> one.getValue().compareTo(two.getValue()));
+         */
+
+        /*
+        tmp.sort(new Comparator<Map.Entry<String, Double>>() {
+            @Override
+            public int compare(Map.Entry<String, Double> one, Map.Entry<String, Double> two) {
+                return one.getValue().compareTo(two.getValue());
+            }
+        });
+
+         */
+        tmp.forEach(p -> System.out.println(String.format("%s $%.2f", p.getKey(), p.getValue())));
+        showTotalSum(map);
+    }
+
+    private static void sortByType() {
+        System.out.println();
+        System.out.println("Types:");
+        Map<String, Double> map = new HashMap<>();
+        map.put("Food", food.values().stream().mapToDouble(Double::doubleValue).sum());
+        map.put("Clothes", clothes.values().stream().mapToDouble(Double::doubleValue).sum());
+        map.put("Entertainment", entertainment.values().stream().mapToDouble(Double::doubleValue).sum());
+        map.put("Other", other.values().stream().mapToDouble(Double::doubleValue).sum());
+        List<Map.Entry<String, Double>> tmp = new ArrayList<>(map.entrySet());
+        tmp.sort((one, two) -> two.getValue().compareTo(one.getValue()));
+        tmp.forEach(p -> System.out.println(String.format("%s - $%.2f", p.getKey(), p.getValue())));
+        showTotalSum(map);
+    }
+
+    private static void sortCertainType(Scanner scanner) {
+        int answer;
+        System.out.println();
+        System.out.println("Choose the type of purchase");
+        System.out.println("1) Food");
+        System.out.println("2) Clothes");
+        System.out.println("3) Entertainment");
+        System.out.println("4) Other");
+        answer = Integer.parseInt(scanner.nextLine());
+
+        switch (answer) {
+            case 1:
+                sortMapPurchases("Food:", food);
+                break;
+            case 2:
+                sortMapPurchases("Clothes:", clothes);
+                break;
+            case 3:
+                sortMapPurchases("Entertainment:", entertainment);
+                break;
+            case 4:
+                sortMapPurchases("Other:", other);
+                break;
+            default:
+                throw new IllegalArgumentException("Its only could be 1-4");
+        }
     }
 
     private static void save() {
@@ -257,6 +369,7 @@ public class Main {
         System.out.println("4) Balance");
         System.out.println("5) Save");
         System.out.println("6) Load");
+        System.out.println("7) Analyze (Sort)");
         System.out.println("0) Exit");
     }
 

@@ -443,7 +443,7 @@
           <option name="items">
             <list>
               <FrameworkLesson>
-                <option name="currentTaskIndex" value="3" />
+                <option name="currentTaskIndex" value="4" />
                 <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="1" />
@@ -654,7 +654,7 @@
                       <option name="id" value="7027" />
                       <option name="index" value="4" />
                       <option name="name" value="Memorable purchases" />
-                      <option name="record" value="-1" />
+                      <option name="record" value="5" />
                       <option name="status" value="Solved" />
                       <option name="files">
                         <map>
@@ -732,7 +732,7 @@
                       <option name="index" value="5" />
                       <option name="name" value="Analyzer" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="test/BudgetManagerTest.java">
@@ -755,9 +755,37 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/budget/Main.java" />
                                 <option name="text" value="package budget;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        // write your code here&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/budget/Main.class">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/budget/Main.class" />
+                                <option name="text" value="" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="purchases.txt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="purchases.txt" />
+                                <option name="text" value="785.64&#10;FOOD:8&#10;Almond 250g&#10;35.43&#10;Milk&#10;3.5&#10;Red Fuji Apple&#10;5.99&#10;Eggs&#10;3.99&#10;FIJI Natural Artesian Water&#10;25.98&#10;Hershey's milk chocolate bars&#10;8.54&#10;Great Value Broccoli Florets&#10;1.0&#10;Keystone Ground Bee&#10;6.28&#10;CLOTHES:3&#10;Gildan LT&#10;8.61&#10;Men's Dual Defense Crew Socks 12 Pairs&#10;13.0&#10;Wrangler Men's Stretch Cargo Pant&#10;19.97&#10;ENTERTAINMENT:3&#10;LEGO DUPLO Town Farm Animals&#10;10.1&#10;Cinema&#10;8.73&#10;Skate rental&#10;30.0&#10;OTHER:3&#10;Sensodyne Pronamel Toothpaste&#10;19.74&#10;Chick-fil-A $10 Gift Card&#10;10.0&#10;Debt&#10;3.5&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="visible" value="true" />
                               </TaskFile>
@@ -770,6 +798,298 @@
                   </list>
                 </option>
               </FrameworkLesson>
+              <Lesson>
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="2" />
+                <option name="name" value="Problems" />
+                <option name="updateDate" value="0" />
+                <option name="unitId" value="0" />
+                <option name="items">
+                  <list>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Publication and its subclasses&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/4331&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;You are given four classes —&amp;nbsp;&lt;code&gt;Publication&lt;/code&gt;, &lt;code&gt;Newspaper&lt;/code&gt;, &lt;code&gt;Article&lt;/code&gt; and &lt;code&gt;Announcement&lt;/code&gt;. You need to override methods &lt;code&gt;getType()&lt;/code&gt; and &lt;code&gt;getDetails()&lt;/code&gt; in classes inherited from the class &lt;code&gt;Publication&lt;/code&gt;.&lt;/p&gt; &#10;  &lt;p&gt;Then you need to implement &lt;code&gt;getInfo()&lt;/code&gt; in the class &lt;code&gt;Publication&lt;/code&gt;&amp;nbsp;using&amp;nbsp;&lt;code&gt;getType()&lt;/code&gt; and &lt;code&gt;getDetails()&lt;/code&gt;. The method should return a &lt;code&gt;String&lt;/code&gt; with a type of publication in the first place, then details in round brackets and the title after a colon. Examples are shown below.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;Publication; The new era&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;Publication: The new era&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;Newspaper; Football results; Sport news&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;Newspaper (source - Sport news): Football results&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;Article; Why the Sun is hot; Dr James Smith&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;Article (author - Dr James Smith): Why the Sun is hot&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;Announcement; Will sell a house; 30&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;Announcement (days to expire - 30): Will sell a house&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3587&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/4331" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="4331" />
+                      <option name="index" value="1" />
+                      <option name="name" value="Publication and its subclasses" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Publication {&#10;&#10;    private String title;&#10;&#10;    public Publication(String title) {&#10;        this.title = title;&#10;    }&#10;&#10;    public final String getInfo() {&#10;        // write your code here&#10;    }&#10;&#10;    public String getType() {&#10;        return &quot;Publication&quot;;&#10;    }&#10;&#10;    public String getDetails() {&#10;        return &quot;&quot;;&#10;    }&#10;&#10;}&#10;&#10;class Newspaper extends Publication {&#10;&#10;    private String source;&#10;&#10;    public Newspaper(String title, String source) {&#10;        super(title);&#10;        this.source = source;&#10;    }&#10;&#10;    // write your code here&#10;&#10;}&#10;&#10;class Article extends Publication {&#10;&#10;    private String author;&#10;&#10;    public Article(String title, String author) {&#10;        super(title);&#10;        this.author = author;&#10;    }&#10;&#10;    // write your code here&#10;&#10;}&#10;&#10;class Announcement extends Publication {&#10;&#10;    private int daysToExpire;&#10;&#10;    public Announcement(String title, int daysToExpire) {&#10;        super(title);&#10;        this.daysToExpire = daysToExpire;&#10;    }&#10;&#10;    // write your code here&#10;&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Mutable geometric shapes&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3083&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;Suppose, you are writing a geometric engine. Now it includes classes and interfaces &lt;code&gt;Circle&lt;/code&gt;, &lt;code&gt;Rectangle&lt;/code&gt;, &lt;code&gt;Movable&lt;/code&gt; and &lt;code&gt;Scalable&lt;/code&gt;.&lt;/p&gt; &#10;  &lt;p&gt;&amp;nbsp;&lt;/p&gt; &#10;  &lt;p&gt;&lt;img alt=&quot;&quot; height=&quot;21&quot; src=&quot;https://ucarecdn.com/30b1850a-4aed-4a63-a026-7ea80a12a6de/&quot; style=&quot;float: left;&quot; width=&quot;124&quot;&gt;&lt;/p&gt; &#10;  &lt;p&gt;&amp;nbsp;&lt;/p&gt; &#10;  &lt;p&gt;&lt;strong&gt;You need:&lt;/strong&gt;&lt;/p&gt; &#10;  &lt;ol&gt; &#10;   &lt;li&gt;to write a new interface &lt;code&gt;MutableShape&lt;/code&gt; that extends both existing interfaces;&lt;/li&gt; &#10;   &lt;li&gt;to implement the new interface by each class;&lt;/li&gt; &#10;   &lt;li&gt;to override methods &lt;code&gt;move&lt;/code&gt; and &lt;code&gt;scale&lt;/code&gt; in both classes: &#10;    &lt;ul&gt; &#10;     &lt;li&gt;&lt;code&gt;scale&lt;/code&gt; should multiply the &lt;code&gt;radius&lt;/code&gt; of a circle by the specified &lt;code&gt;factor&lt;/code&gt;;&lt;/li&gt; &#10;     &lt;li&gt;&lt;code&gt;scale&lt;/code&gt; should multiply &lt;code&gt;width&lt;/code&gt;&amp;nbsp;and &lt;code&gt;height&lt;/code&gt; of a rectangle by the specified &lt;code&gt;factor&lt;/code&gt;;&lt;/li&gt; &#10;     &lt;li&gt;&lt;code&gt;move&lt;/code&gt; should add &lt;code&gt;dx&lt;/code&gt; and &lt;code&gt;dy&lt;/code&gt; to the center of a circle;&lt;/li&gt; &#10;     &lt;li&gt;&lt;code&gt;move&lt;/code&gt; should add &lt;code&gt;dx&lt;/code&gt; and &lt;code&gt;dy&lt;/code&gt; to the upper-left corner of a rectangle.&lt;/li&gt; &#10;    &lt;/ul&gt; &lt;/li&gt; &#10;  &lt;/ol&gt; &#10;  &lt;p&gt;See the provided code and read comments to understand your task better. Now the code is not compiled.&lt;/p&gt; &#10;  &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/p&gt; &#10;  &lt;ul&gt; &#10;   &lt;li&gt;do not remove existing classes and their members (including getters and constructors).&lt;/li&gt; &#10;   &lt;li&gt;do not make your classes and interfaces &lt;code&gt;public&lt;/code&gt;&lt;/li&gt; &#10;  &lt;/ul&gt; &#10;  &lt;p&gt;&amp;nbsp;&lt;/p&gt; &#10;  &lt;p&gt;After your changes, the following code should be compiled:&lt;/p&gt; &#10;  &lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;MutableShape circle = new Circle(2.0f, 3.5f, 10.1f);&#10;circle.move(10.1f, 20.2f);&#10;circle.scale(2.2f);&#10;((Circle) circle).getRadius();&lt;/code&gt;&lt;/pre&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3615&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3083" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3083" />
+                      <option name="index" value="2" />
+                      <option name="name" value="Mutable geometric shapes" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="interface Movable {&#10;&#10;    void move(float dx, float dy);&#10;}&#10;&#10;interface Scalable {&#10;&#10;    void scale(float factor);&#10;}&#10;&#10;final class Circle {&#10;&#10;    /**&#10;     * Defines the horizontal position of the center of the circle&#10;     */&#10;    private float centerX;&#10;&#10;    /**&#10;     * Defines the vertical position of the center of the circle&#10;     */&#10;    private float centerY;&#10;&#10;    /**&#10;     * Defines the radius of the circle&#10;     */&#10;    private float radius;&#10;&#10;    public Circle(float centerX, float centerY, float radius) {&#10;        this.centerX = centerX;&#10;        this.centerY = centerY;&#10;        this.radius = radius;&#10;    }&#10;&#10;    public float getCenterX() {&#10;        return centerX;&#10;    }&#10;&#10;    public float getCenterY() {&#10;        return centerY;&#10;    }&#10;&#10;    public float getRadius() {&#10;        return radius;&#10;    }&#10;}&#10;&#10;final class Rectangle {&#10;&#10;    /**&#10;     * Defines the X coordinate of the upper-left corner of the rectangle.&#10;     */&#10;    private float x;&#10;&#10;    /**&#10;     * Defines the Y coordinate of the upper-left corner of the rectangle.&#10;     */&#10;    private float y;&#10;&#10;    /**&#10;     * Defines the width of the rectangle.&#10;     */&#10;    private float width;&#10;&#10;    /**&#10;     * Defines the height of the rectangle.&#10;     */&#10;    private float height;&#10;&#10;    public Rectangle(float x, float y, float w, float h) {&#10;        this.x = x;&#10;        this.y = y;&#10;        this.width = w;&#10;        this.height = h;&#10;    }&#10;&#10;    public float getX() {&#10;        return x;&#10;    }&#10;&#10;    public float getY() {&#10;        return y;&#10;    }&#10;&#10;    public float getWidth() {&#10;        return width;&#10;    }&#10;&#10;    public float getHeight() {&#10;        return height;&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Account Service&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2121&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;You are given an interface named &lt;code&gt;AccountService&lt;/code&gt;. The interface has two abstract methods:&lt;/p&gt; &#10;  &lt;ul&gt; &#10;   &lt;li&gt;&lt;code&gt;findAccountByOwnerId(long id)&lt;/code&gt; that returns &lt;code&gt;Account&lt;/code&gt; found by owner id or &lt;code&gt;null&lt;/code&gt;.&lt;/li&gt; &#10;   &lt;li&gt;&lt;code&gt;countAccountsWithBalanceGreaterThan(long balance)&lt;/code&gt; that returns the number of accounts with the balance greater than the passed value.&lt;/li&gt; &#10;  &lt;/ul&gt; &#10;  &lt;p&gt;There are also two other classes: &lt;code&gt;Account&lt;/code&gt; (id, balance, owner) and &lt;code&gt;User&lt;/code&gt; (id, firstName, lastName). See their implementations in the provided code template.&lt;/p&gt; &#10;  &lt;p&gt;&amp;nbsp;&lt;/p&gt; &#10;  &lt;p&gt;&lt;img alt=&quot;&quot; height=&quot;21&quot; src=&quot;https://ucarecdn.com/30b1850a-4aed-4a63-a026-7ea80a12a6de/&quot; style=&quot;float: left;&quot; width=&quot;124&quot;&gt;&lt;/p&gt; &#10;  &lt;p&gt;&amp;nbsp;&lt;/p&gt; &#10;  &lt;p&gt;&lt;strong&gt;You need to implement the &lt;code&gt;AccountService&lt;/code&gt; interface and its two methods.&lt;/strong&gt;&lt;/p&gt; &#10;  &lt;p&gt;- Your implementation should be named &lt;code&gt;AccountServiceImpl&lt;/code&gt;.&amp;nbsp;It should have a constructor with one argument — an array of accounts.&lt;/p&gt; &#10;  &lt;p&gt;- The implementation must keep the array inside.&lt;/p&gt; &#10;  &lt;p&gt;- The first method should search for an account by owner id in the array, the second one — count the number of accounts that meet the given condition in the array.&lt;/p&gt; &#10;  &lt;p&gt;Here's &lt;strong&gt;an example&lt;/strong&gt; of an instance:&lt;/p&gt; &#10;  &lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Account[] accounts = ...&#10;AccountService service = new AccountServiceImpl(accounts);&lt;/code&gt;&lt;/pre&gt; &#10;  &lt;p&gt;Note: do not make classes and the interface &lt;code&gt;public&lt;/code&gt;.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3615&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2121" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2121" />
+                      <option name="index" value="3" />
+                      <option name="name" value="Account Service" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="interface AccountService {&#10;    /**&#10;     * It finds an account by owner id&#10;     * @param id owner unique identifier&#10;     * @return account or null&#10;     */&#10;    Account findAccountByOwnerId(long id);&#10;    /**&#10;     * It count the number of account with balance &gt; the given value&#10;     * @param value&#10;     * @return the number of accounts&#10;     */&#10;    long countAccountsWithBalanceGreaterThan(long value);&#10;}&#10;&#10;// Declare and implement your AccountServiceImpl here&#10;&#10;class Account {&#10;&#10;    private long id;&#10;    private long balance;&#10;    private User owner;&#10;&#10;    public Account(long id, long balance, User owner) {&#10;        this.id = id;&#10;        this.balance = balance;&#10;        this.owner = owner;&#10;    }&#10;&#10;    public long getId() { return id; }&#10;&#10;    public long getBalance() { return balance; }&#10;&#10;    public User getOwner() { return owner; }&#10;}&#10;&#10;class User {&#10;&#10;    private long id;&#10;    private String firstName;&#10;    private String lastName;&#10;&#10;    public User(long id, String firstName, String lastName) {&#10;        this.id = id;&#10;        this.firstName = firstName;&#10;        this.lastName = lastName;&#10;    }&#10;&#10;    public long getId() { return id; }&#10;&#10;    public String getFirstName() { return firstName; }&#10;&#10;    public String getLastName() { return lastName; }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Compact strings with AsciiCharSequence&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3082&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;Write a class named &lt;code&gt;AsciiCharSequence&lt;/code&gt; that implements compact storage of ASCII-character sequences. Their codes can be stored in one single byte, unlike Unicode characters. Compared to&amp;nbsp;the standard &lt;code&gt;String&lt;/code&gt; class, your class will require twice less memory (before Java 9).&lt;/p&gt; &#10;  &lt;p&gt;The class &lt;code&gt;AsciiCharSequence&lt;/code&gt; should:&lt;/p&gt; &#10;  &lt;ul&gt; &#10;   &lt;li&gt;implement the interface &lt;code&gt;java.lang.CharSequence&lt;/code&gt;;&lt;/li&gt; &#10;   &lt;li&gt;have a constructor that takes a byte array;&lt;/li&gt; &#10;   &lt;li&gt;define methods &lt;code&gt;length&lt;/code&gt;, &lt;code&gt;charAt&lt;/code&gt;, &lt;code&gt;subSequence&lt;/code&gt;, and &lt;code&gt;toString&lt;/code&gt;.&lt;/li&gt; &#10;  &lt;/ul&gt; &#10;  &lt;p&gt;You can see the declaration of methods and their behavior in the description of &lt;code&gt;java.lang.CharSequence&lt;/code&gt; (JavaDoc or sources).&lt;/p&gt; &#10;  &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; the testing system&amp;nbsp;will always pass correct input parameters to overridden methods.&lt;/p&gt; &#10;  &lt;p&gt;P.S. The feature is supported since Java 9 in standard strings. For details, see &lt;a href=&quot;https://www.baeldung.com/java-9-compact-string&quot; rel=&quot;noopener noreferrer nofollow&quot;&gt;this article on compact strings in Java 9&lt;/a&gt;.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3615&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3082" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3082" />
+                      <option name="index" value="4" />
+                      <option name="name" value="Compact strings with AsciiCharSequence" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/AsciiCharSequence.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/AsciiCharSequence.java" />
+                                <option name="text" value="public class AsciiCharSequence /* extends/implements */ {&#10;    // implementation&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Max and Min&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3331&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;Use the strategy pattern to implement algorithms to find max and min values in a given array. The basic structure of the provided classes is described below: your job is to complete it.&lt;/p&gt; &#10;  &lt;p&gt;The class &lt;code&gt;Finder&lt;/code&gt; represents the general finding algorithm itself. It works according to the specified strategy.&lt;/p&gt; &#10;  &lt;p&gt;The interface &lt;code&gt;FindingStrategy&lt;/code&gt; provides two methods to write new concrete finding strategies: &lt;code&gt;takeOne&lt;/code&gt; to get the next value and &lt;code&gt;getDefaultValue&lt;/code&gt; to return a value if nothing was found (the given array is empty). Strategies define only the specific details of the finding algorithm.&lt;/p&gt; &#10;  &lt;p&gt;Please, do not change the interface &lt;code&gt;FindingStrategy&lt;/code&gt;, and do not rename the existing methods.&lt;/p&gt; &#10;  &lt;p&gt;If the array is empty, the &lt;code&gt;Finder&lt;/code&gt; should return &lt;code&gt;Integer.MAX_VALUE&lt;/code&gt; in case of finding the min value and &lt;code&gt;Integer.MIN_VALUE&lt;/code&gt; in case of finding the max value.&lt;/p&gt; &#10;  &lt;p&gt;&lt;strong&gt;HINT: &lt;/strong&gt;tests 1-5 check &lt;code&gt;MinFindingStrategy&lt;/code&gt;, tests 6-10 check &lt;code&gt;MaxFindingStrategy&lt;/code&gt;. Do not forget to check your solution when the passed array has the size 0 or 1.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3556&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3331" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3331" />
+                      <option name="index" value="5" />
+                      <option name="name" value="Max and Min" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.util.Scanner;&#10;&#10;class Finder {&#10;&#10;    private FindingStrategy strategy;&#10;&#10;    public Finder(FindingStrategy strategy) {&#10;        // write your code here&#10;    }&#10;&#10;    /**&#10;     * It performs the search algorithm according to the given strategy&#10;     */&#10;    public int find(int[] numbers) {&#10;        // write your code here&#10;    }&#10;}&#10;&#10;interface FindingStrategy {&#10;&#10;    /**&#10;     * Returns one of two values&#10;     */&#10;    int takeOne(int elem1, int elem2);&#10;&#10;    /**&#10;     * Returns the default value of a concrete implementation&#10;     */&#10;    int getDefaultValue();&#10;}&#10;&#10;class MaxFindingStrategy implements FindingStrategy {&#10;&#10;    public int takeOne(int elem1, int elem2) {&#10;        // write your code here&#10;    }&#10;&#10;    public int getDefaultValue() {&#10;        // write your code here&#10;    }&#10;}&#10;&#10;class MinFindingStrategy implements FindingStrategy {&#10;&#10;    public int takeOne(int elem1, int elem2) {&#10;        // write your code here&#10;    }&#10;&#10;    public int getDefaultValue() {&#10;        // write your code here&#10;    }&#10;}&#10;&#10;/* Do not change code below */&#10;public class Main {&#10;&#10;    public static void main(String args[]) {&#10;&#10;        final Scanner scanner = new Scanner(System.in);&#10;&#10;        final String[] elements = scanner.nextLine().split(&quot;\\s+&quot;);&#10;        int[] numbers = null;&#10;&#10;        if (!elements[0].equals(&quot;EMPTY&quot;)) {&#10;            numbers = new int[elements.length];&#10;            for (int i = 0; i &lt; elements.length; i++) {&#10;                numbers[i] = Integer.parseInt(elements[i]);&#10;            }&#10;        } else {&#10;            numbers = new int[0];&#10;        }&#10;&#10;        final String type = scanner.nextLine();&#10;&#10;        Finder finder = null;&#10;&#10;        switch (type) {&#10;            case &quot;MIN&quot;:&#10;                finder = new Finder(new MinFindingStrategy());&#10;                break;&#10;            case &quot;MAX&quot;:&#10;                finder = new Finder(new MaxFindingStrategy());&#10;                break;&#10;            default:&#10;                break;&#10;        }&#10;&#10;        if (finder == null) {&#10;            throw new RuntimeException(&#10;                    &quot;Unknown strategy type passed. Please, write to the author of the problem.&quot;);&#10;        }&#10;&#10;        System.out.println(finder.find(numbers));&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Pick your team&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3329&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;Imagine that you're creating&amp;nbsp;teams to organize events. You need a module for your program that will select the people&amp;nbsp;for these teams.&lt;/p&gt; &#10;  &lt;p&gt;There are only two selection algorithms:&lt;/p&gt; &#10;  &lt;ul&gt; &#10;   &lt;li&gt;take every k-th person;&lt;/li&gt; &#10;   &lt;li&gt;take the last k people.&lt;/li&gt; &#10;  &lt;/ul&gt; &#10;  &lt;p&gt;In both cases, k &amp;gt; 1.&lt;/p&gt; &#10;  &lt;p&gt;You decided to use the &lt;strong&gt;strategy pattern&lt;/strong&gt; in the module because new selection algorithms will be added in the future. Also, the pattern allows you to change the current algorithm at runtime.&lt;/p&gt; &#10;  &lt;p&gt;The basic structure of classes is provided below, but it doesn't really work properly.&lt;/p&gt; &#10;  &lt;p&gt;Your goal is to implement the following method:&lt;/p&gt; &#10;  &lt;ul&gt; &#10;   &lt;li&gt;&lt;code&gt;setAlgorithm&lt;/code&gt; and &lt;code&gt;selectPersons&lt;/code&gt; methods of the class &lt;code&gt;SelectionContext&lt;/code&gt;;&lt;/li&gt; &#10;   &lt;li&gt;&lt;code&gt;select&lt;/code&gt; of the class &lt;code&gt;TakePersonsWithStepAlgorithm&lt;/code&gt; to take every k-th person &lt;strong&gt;starting with the index 0&lt;/strong&gt; in the same order as in the input array (when k is 3, then it must take 0, 3, 6, ... persons);&lt;/li&gt; &#10;   &lt;li&gt;&lt;code&gt;select&lt;/code&gt; of the class &lt;code&gt;TakeLastPersonsAlgorithm&lt;/code&gt; to take the last k persons in the same order as the input array.&lt;/li&gt; &#10;  &lt;/ul&gt; &#10;  &lt;p&gt;Perhaps, you should add some fields to the classes as well.&lt;/p&gt; &#10;  &lt;p&gt;Please&amp;nbsp;do not change the class &lt;code&gt;Person&lt;/code&gt; and the interface &lt;code&gt;PersonSelectionAlgorithm&lt;/code&gt;, and do not rename existing methods.&lt;/p&gt; &#10;  &lt;p&gt;&lt;strong&gt;HINT: &lt;/strong&gt;tests 1-4 check &lt;code&gt;TakePersonsWithStepAlgorithm&lt;/code&gt;, tests 5-8 check &lt;code&gt;TakeLastPersonsAlgorithm&lt;/code&gt;. Do not forget to check your solution when the step is 1 or the input array contains only a single element.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3556&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3329" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3329" />
+                      <option name="index" value="6" />
+                      <option name="name" value="Pick your team" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.util.Scanner;&#10;&#10;class SelectionContext {&#10;&#10;    private PersonSelectionAlgorithm algorithm;&#10;&#10;    public void setAlgorithm(PersonSelectionAlgorithm algorithm) {&#10;        // write your code here&#10;    }&#10;&#10;    public Person[] selectPersons(Person[] persons) {&#10;        // write your code here&#10;    }&#10;}&#10;&#10;interface PersonSelectionAlgorithm {&#10;&#10;    Person[] select(Person[] persons);&#10;}&#10;&#10;class TakePersonsWithStepAlgorithm implements PersonSelectionAlgorithm {&#10;&#10;    public TakePersonsWithStepAlgorithm(int step) {&#10;        // write your code here&#10;    }&#10;&#10;    @Override&#10;    public Person[] select(Person[] persons) {&#10;        // write your code here&#10;    }&#10;}&#10;&#10;&#10;class TakeLastPersonsAlgorithm implements PersonSelectionAlgorithm {&#10;&#10;    public TakeLastPersonsAlgorithm(int count) {&#10;        // write your code here&#10;    }&#10;&#10;    @Override&#10;    public Person[] select(Person[] persons) {&#10;        // write your code here&#10;    }&#10;}&#10;&#10;class Person {&#10;&#10;    String name;&#10;&#10;    public Person(String name) {&#10;        this.name = name;&#10;    }&#10;}&#10;&#10;/* Do not change code below */&#10;public class Main {&#10;&#10;    public static void main(String args[]) {&#10;        final Scanner scanner = new Scanner(System.in);&#10;&#10;        final int count = Integer.parseInt(scanner.nextLine());&#10;        final Person[] persons = new Person[count];&#10;&#10;        for (int i = 0; i &lt; count; i++) {&#10;            persons[i] = new Person(scanner.nextLine());&#10;        }&#10;&#10;        final String[] configs = scanner.nextLine().split(&quot;\\s+&quot;);&#10;&#10;        final PersonSelectionAlgorithm alg = create(configs[0], Integer.parseInt(configs[1]));&#10;        SelectionContext ctx = new SelectionContext();&#10;        ctx.setAlgorithm(alg);&#10;&#10;        final Person[] selected = ctx.selectPersons(persons);&#10;        for (Person p : selected) {&#10;            System.out.println(p.name);&#10;        }&#10;    }&#10;&#10;    public static PersonSelectionAlgorithm create(String algType, int param) {&#10;        switch (algType) {&#10;            case &quot;STEP&quot;: {&#10;                return new TakePersonsWithStepAlgorithm(param);&#10;            }&#10;            case &quot;LAST&quot;: {&#10;                return new TakeLastPersonsAlgorithm(param);&#10;            }&#10;            default: {&#10;                throw new IllegalArgumentException(&quot;Unknown algorithm type &quot; + algType);&#10;            }&#10;        }&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Swaps&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3799&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  For a given array, using Bubble sorting, count the number of swaps (exchanges of two numbers) you need to do to fully sort the array in the ascending order. You need to output the number of swaps.&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;2 1 3 4 5&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;1&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;8 3 4 6 5 2 1&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;16&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3547&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3799" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3799" />
+                      <option name="index" value="7" />
+                      <option name="name" value="Swaps" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.util.*;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        // write your code here&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Swaps 2&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3826&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;   For a given array, using Bubble sorting, count the number of swaps (exchanges of two numbers) you need to do to fully sort the array in the descending order. You need to output the number of swaps. &#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;5 4 3 1 2&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;1&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;8 3 4 6 5 2 1&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;5&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3547&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3826" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3826" />
+                      <option name="index" value="8" />
+                      <option name="name" value="Swaps 2" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.util.*;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        // write your code here&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                    </CodeTask>
+                  </list>
+                </option>
+              </Lesson>
             </list>
           </option>
         </HyperskillCourse>
